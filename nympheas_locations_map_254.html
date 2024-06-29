@@ -1,0 +1,4903 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa5f84098360d5db5beae866478e62b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fa5f84098360d5db5beae866478e62b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa5f84098360d5db5beae866478e62b3 = L.map(
+                "map_fa5f84098360d5db5beae866478e62b3",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3db49b1644600159c7fe9c29981f60bc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fa5f84098360d5db5beae866478e62b3);
+        
+    
+            var marker_cluster_58924e990c1cddd743f192f41d072d83 = L.markerClusterGroup(
+                {}
+            );
+            map_fa5f84098360d5db5beae866478e62b3.addLayer(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+            var marker_410ac6d7463ccd3db3731094df56e0a7 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_87737d4d845d2143855ab99e8c8067a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88f47067f507deae981be05b57120f9e = $(`<div id="html_88f47067f507deae981be05b57120f9e" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_87737d4d845d2143855ab99e8c8067a7.setContent(html_88f47067f507deae981be05b57120f9e);
+        
+
+        marker_410ac6d7463ccd3db3731094df56e0a7.bindPopup(popup_87737d4d845d2143855ab99e8c8067a7)
+        ;
+
+        
+    
+    
+            var marker_85ee7ec86e7da3555e4b81c7462ded4a = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a2a557c0d101e6e2b54e89589859f955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_820a5e6704a1a61f8d563e07ffb41857 = $(`<div id="html_820a5e6704a1a61f8d563e07ffb41857" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_a2a557c0d101e6e2b54e89589859f955.setContent(html_820a5e6704a1a61f8d563e07ffb41857);
+        
+
+        marker_85ee7ec86e7da3555e4b81c7462ded4a.bindPopup(popup_a2a557c0d101e6e2b54e89589859f955)
+        ;
+
+        
+    
+    
+            var marker_5cfb2b60c411cade1d0c741dadda1052 = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_ba3934420b5dbb568b588c1d54adcd7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a578e50779a8324e06a5842cef0e097 = $(`<div id="html_8a578e50779a8324e06a5842cef0e097" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_ba3934420b5dbb568b588c1d54adcd7e.setContent(html_8a578e50779a8324e06a5842cef0e097);
+        
+
+        marker_5cfb2b60c411cade1d0c741dadda1052.bindPopup(popup_ba3934420b5dbb568b588c1d54adcd7e)
+        ;
+
+        
+    
+    
+            var marker_de9007605c754cee178c5ce340f5d0a5 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b53ac78bd55bbfa8bd0832e26e66cb18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f64565a917103fa3a750644774f57728 = $(`<div id="html_f64565a917103fa3a750644774f57728" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_b53ac78bd55bbfa8bd0832e26e66cb18.setContent(html_f64565a917103fa3a750644774f57728);
+        
+
+        marker_de9007605c754cee178c5ce340f5d0a5.bindPopup(popup_b53ac78bd55bbfa8bd0832e26e66cb18)
+        ;
+
+        
+    
+    
+            var marker_2baf0531b1763e4a71176aa2b2096321 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_827d8182effeebdc93af8bb86ce45fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e045e7a590a65624a8ac469182e16941 = $(`<div id="html_e045e7a590a65624a8ac469182e16941" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_827d8182effeebdc93af8bb86ce45fe0.setContent(html_e045e7a590a65624a8ac469182e16941);
+        
+
+        marker_2baf0531b1763e4a71176aa2b2096321.bindPopup(popup_827d8182effeebdc93af8bb86ce45fe0)
+        ;
+
+        
+    
+    
+            var marker_f8a035d22f440cd051ad10dbe5cd084c = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_df2a3695c66325be03cad6c39a504c68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9001c0c10d721cf96fadde3691a8f16 = $(`<div id="html_d9001c0c10d721cf96fadde3691a8f16" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_df2a3695c66325be03cad6c39a504c68.setContent(html_d9001c0c10d721cf96fadde3691a8f16);
+        
+
+        marker_f8a035d22f440cd051ad10dbe5cd084c.bindPopup(popup_df2a3695c66325be03cad6c39a504c68)
+        ;
+
+        
+    
+    
+            var marker_ed86d1adc7fd62aad9faca72c4617176 = L.marker(
+                [41.5089, -81.6115],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9d4f93bde591e6531f8368baf78a5e7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce8672aebf32b9bb216219983ede4894 = $(`<div id="html_ce8672aebf32b9bb216219983ede4894" style="width: 100.0%; height: 100.0%;">Cleveland Museum of Art, Cleveland, USA</div>`)[0];
+            popup_9d4f93bde591e6531f8368baf78a5e7b.setContent(html_ce8672aebf32b9bb216219983ede4894);
+        
+
+        marker_ed86d1adc7fd62aad9faca72c4617176.bindPopup(popup_9d4f93bde591e6531f8368baf78a5e7b)
+        ;
+
+        
+    
+    
+            var marker_1bdbac8b02d3153c317404b836db90f1 = L.marker(
+                [45.516, -122.6839],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_98dd88a99a4dd56c5ae28ef51774c687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_845b5296fca4c5716ade7aa3052e23e7 = $(`<div id="html_845b5296fca4c5716ade7aa3052e23e7" style="width: 100.0%; height: 100.0%;">Portland Art Museum, Portland, USA</div>`)[0];
+            popup_98dd88a99a4dd56c5ae28ef51774c687.setContent(html_845b5296fca4c5716ade7aa3052e23e7);
+        
+
+        marker_1bdbac8b02d3153c317404b836db90f1.bindPopup(popup_98dd88a99a4dd56c5ae28ef51774c687)
+        ;
+
+        
+    
+    
+            var marker_fd74d8d25481aa6878d451ab86b9d97c = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3d70fa46a37fb36ecc2bd7212aba53ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a1712c0dc7aa7dca28f3b759853278 = $(`<div id="html_55a1712c0dc7aa7dca28f3b759853278" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_3d70fa46a37fb36ecc2bd7212aba53ff.setContent(html_55a1712c0dc7aa7dca28f3b759853278);
+        
+
+        marker_fd74d8d25481aa6878d451ab86b9d97c.bindPopup(popup_3d70fa46a37fb36ecc2bd7212aba53ff)
+        ;
+
+        
+    
+    
+            var marker_f1ec9cf8806c1c6a0aed085abe4a44bd = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_ad4ecf2092a91c6f7261aac7d327de5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9547af0805d407f909d8e23445d44e = $(`<div id="html_1c9547af0805d407f909d8e23445d44e" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_ad4ecf2092a91c6f7261aac7d327de5d.setContent(html_1c9547af0805d407f909d8e23445d44e);
+        
+
+        marker_f1ec9cf8806c1c6a0aed085abe4a44bd.bindPopup(popup_ad4ecf2092a91c6f7261aac7d327de5d)
+        ;
+
+        
+    
+    
+            var marker_a4cfe37f9486c8c366f26dff20beda06 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_35f8d5583dff1f45cd1b103e056895c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b51a315f3559093aa27fb9258ab29a18 = $(`<div id="html_b51a315f3559093aa27fb9258ab29a18" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_35f8d5583dff1f45cd1b103e056895c3.setContent(html_b51a315f3559093aa27fb9258ab29a18);
+        
+
+        marker_a4cfe37f9486c8c366f26dff20beda06.bindPopup(popup_35f8d5583dff1f45cd1b103e056895c3)
+        ;
+
+        
+    
+    
+            var marker_f235ce6e887917acc57f78469bc6c086 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4573b5dee93923368c1e139b21fd8b82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea4256bb19f04ce6af4204f21db4321d = $(`<div id="html_ea4256bb19f04ce6af4204f21db4321d" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_4573b5dee93923368c1e139b21fd8b82.setContent(html_ea4256bb19f04ce6af4204f21db4321d);
+        
+
+        marker_f235ce6e887917acc57f78469bc6c086.bindPopup(popup_4573b5dee93923368c1e139b21fd8b82)
+        ;
+
+        
+    
+    
+            var marker_6e1cebd318a5850cf6660df6bb304165 = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d94fca55b6e0d2626b51dcf8fdc9d584 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_948c56e023034af1919ea7559ce51428 = $(`<div id="html_948c56e023034af1919ea7559ce51428" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_d94fca55b6e0d2626b51dcf8fdc9d584.setContent(html_948c56e023034af1919ea7559ce51428);
+        
+
+        marker_6e1cebd318a5850cf6660df6bb304165.bindPopup(popup_d94fca55b6e0d2626b51dcf8fdc9d584)
+        ;
+
+        
+    
+    
+            var marker_cf2a090ab453c11247021e26fb183beb = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_114613a21fa54db0cad2745691491cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c83ce9f98653e454de2ccb778f3dbe3c = $(`<div id="html_c83ce9f98653e454de2ccb778f3dbe3c" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_114613a21fa54db0cad2745691491cd4.setContent(html_c83ce9f98653e454de2ccb778f3dbe3c);
+        
+
+        marker_cf2a090ab453c11247021e26fb183beb.bindPopup(popup_114613a21fa54db0cad2745691491cd4)
+        ;
+
+        
+    
+    
+            var marker_e138aaab6fabec7412b6dc91a0c130c2 = L.marker(
+                [47.5596, 7.5886],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f434890d7f7aa948cfff520edafcdd8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d7e286cef2880cbdc595bb68fbc4b84 = $(`<div id="html_3d7e286cef2880cbdc595bb68fbc4b84" style="width: 100.0%; height: 100.0%;">Kunstmuseum Basel, Basel, Switzerland</div>`)[0];
+            popup_f434890d7f7aa948cfff520edafcdd8a.setContent(html_3d7e286cef2880cbdc595bb68fbc4b84);
+        
+
+        marker_e138aaab6fabec7412b6dc91a0c130c2.bindPopup(popup_f434890d7f7aa948cfff520edafcdd8a)
+        ;
+
+        
+    
+    
+            var marker_187d741a077c8fa2ddb81079ac59a1f9 = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_90fe9e3d0d8b4c41e37fb6118ebf0bdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ef504b8045d40d49c5908efaca8f6a = $(`<div id="html_a2ef504b8045d40d49c5908efaca8f6a" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_90fe9e3d0d8b4c41e37fb6118ebf0bdc.setContent(html_a2ef504b8045d40d49c5908efaca8f6a);
+        
+
+        marker_187d741a077c8fa2ddb81079ac59a1f9.bindPopup(popup_90fe9e3d0d8b4c41e37fb6118ebf0bdc)
+        ;
+
+        
+    
+    
+            var marker_a49a14bc9d22abf23f78a48beb83cbdc = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_815aa7e9e41ddbb17a7c05fbe4d50ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f7c8f21e126c8ed7c16a642c4f4837 = $(`<div id="html_e1f7c8f21e126c8ed7c16a642c4f4837" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_815aa7e9e41ddbb17a7c05fbe4d50ad0.setContent(html_e1f7c8f21e126c8ed7c16a642c4f4837);
+        
+
+        marker_a49a14bc9d22abf23f78a48beb83cbdc.bindPopup(popup_815aa7e9e41ddbb17a7c05fbe4d50ad0)
+        ;
+
+        
+    
+    
+            var marker_c94bbf52085d58b71aed9568d8a9515a = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_14f0843bb81230ad0f27d0303f9bb459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d83e8d15404013da58aecd7f4c8a3c3 = $(`<div id="html_6d83e8d15404013da58aecd7f4c8a3c3" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_14f0843bb81230ad0f27d0303f9bb459.setContent(html_6d83e8d15404013da58aecd7f4c8a3c3);
+        
+
+        marker_c94bbf52085d58b71aed9568d8a9515a.bindPopup(popup_14f0843bb81230ad0f27d0303f9bb459)
+        ;
+
+        
+    
+    
+            var marker_53f23b64579501635432f42f523f3925 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9765378be432fa823eafb58f89d2631b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8495df6673884c5d3608fe8b6dda66c3 = $(`<div id="html_8495df6673884c5d3608fe8b6dda66c3" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_9765378be432fa823eafb58f89d2631b.setContent(html_8495df6673884c5d3608fe8b6dda66c3);
+        
+
+        marker_53f23b64579501635432f42f523f3925.bindPopup(popup_9765378be432fa823eafb58f89d2631b)
+        ;
+
+        
+    
+    
+            var marker_15a16b8f29449d5b03c1094949f17084 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_eba739ceec0cd1eaee187f4abe7e1472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ecd20ae387c607749112b8c1f2ea3dd = $(`<div id="html_3ecd20ae387c607749112b8c1f2ea3dd" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_eba739ceec0cd1eaee187f4abe7e1472.setContent(html_3ecd20ae387c607749112b8c1f2ea3dd);
+        
+
+        marker_15a16b8f29449d5b03c1094949f17084.bindPopup(popup_eba739ceec0cd1eaee187f4abe7e1472)
+        ;
+
+        
+    
+    
+            var marker_395ae46887c521542d54c9eb9638a551 = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_eec546746475cccf72278dd0df81f2a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70c589b4032e8698a39a9af8ff8bf0f5 = $(`<div id="html_70c589b4032e8698a39a9af8ff8bf0f5" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_eec546746475cccf72278dd0df81f2a2.setContent(html_70c589b4032e8698a39a9af8ff8bf0f5);
+        
+
+        marker_395ae46887c521542d54c9eb9638a551.bindPopup(popup_eec546746475cccf72278dd0df81f2a2)
+        ;
+
+        
+    
+    
+            var marker_a4d4753289ef7eaa93619face62c2aef = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f82123ebf372d6b17afda20c8f0e7167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88fed8f4e5d5e8bd4250f16055a1c6d2 = $(`<div id="html_88fed8f4e5d5e8bd4250f16055a1c6d2" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_f82123ebf372d6b17afda20c8f0e7167.setContent(html_88fed8f4e5d5e8bd4250f16055a1c6d2);
+        
+
+        marker_a4d4753289ef7eaa93619face62c2aef.bindPopup(popup_f82123ebf372d6b17afda20c8f0e7167)
+        ;
+
+        
+    
+    
+            var marker_2fd7346f36857b9a04a1f50587935ec9 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e5d1495e0a75ac6687ce2f4e8a8f93cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8422aa9e2fe509e7bf00286851c73afb = $(`<div id="html_8422aa9e2fe509e7bf00286851c73afb" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_e5d1495e0a75ac6687ce2f4e8a8f93cd.setContent(html_8422aa9e2fe509e7bf00286851c73afb);
+        
+
+        marker_2fd7346f36857b9a04a1f50587935ec9.bindPopup(popup_e5d1495e0a75ac6687ce2f4e8a8f93cd)
+        ;
+
+        
+    
+    
+            var marker_eda62337e3273dfa6e827058b0d99108 = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3b6938607b354af81e43e559f7028adb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_392d43b0dd6ce5b85f2dd39749be6437 = $(`<div id="html_392d43b0dd6ce5b85f2dd39749be6437" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_3b6938607b354af81e43e559f7028adb.setContent(html_392d43b0dd6ce5b85f2dd39749be6437);
+        
+
+        marker_eda62337e3273dfa6e827058b0d99108.bindPopup(popup_3b6938607b354af81e43e559f7028adb)
+        ;
+
+        
+    
+    
+            var marker_88f74ca5b490e0f7a6b0a59609a4fbef = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_13fbee5578431252e4c88cab2cfcaa47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6009ade32cee7ce4a1ddd8ed984baf7a = $(`<div id="html_6009ade32cee7ce4a1ddd8ed984baf7a" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_13fbee5578431252e4c88cab2cfcaa47.setContent(html_6009ade32cee7ce4a1ddd8ed984baf7a);
+        
+
+        marker_88f74ca5b490e0f7a6b0a59609a4fbef.bindPopup(popup_13fbee5578431252e4c88cab2cfcaa47)
+        ;
+
+        
+    
+    
+            var marker_9a1c3995cfd038582a676bb843ca23ff = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_361012e7312b05bc12b12630940ee305 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c340115903a826a8bfba578ba773d1 = $(`<div id="html_95c340115903a826a8bfba578ba773d1" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_361012e7312b05bc12b12630940ee305.setContent(html_95c340115903a826a8bfba578ba773d1);
+        
+
+        marker_9a1c3995cfd038582a676bb843ca23ff.bindPopup(popup_361012e7312b05bc12b12630940ee305)
+        ;
+
+        
+    
+    
+            var marker_67cce7195a7e13854250d13e4faf560a = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f78eb198fbd045af90b293c1c4f39e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07f6ad2a0a32deda35725bd6e6a219a4 = $(`<div id="html_07f6ad2a0a32deda35725bd6e6a219a4" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_f78eb198fbd045af90b293c1c4f39e0d.setContent(html_07f6ad2a0a32deda35725bd6e6a219a4);
+        
+
+        marker_67cce7195a7e13854250d13e4faf560a.bindPopup(popup_f78eb198fbd045af90b293c1c4f39e0d)
+        ;
+
+        
+    
+    
+            var marker_3e6948fc49e3e777a55f9c198d45308b = L.marker(
+                [45.1931, 5.7265],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8abeaa289d1096687acae2f1b53c9643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7763726335f1421f4cdd630a8fbb0e20 = $(`<div id="html_7763726335f1421f4cdd630a8fbb0e20" style="width: 100.0%; height: 100.0%;">Musée de Grenoble, Grenoble, France</div>`)[0];
+            popup_8abeaa289d1096687acae2f1b53c9643.setContent(html_7763726335f1421f4cdd630a8fbb0e20);
+        
+
+        marker_3e6948fc49e3e777a55f9c198d45308b.bindPopup(popup_8abeaa289d1096687acae2f1b53c9643)
+        ;
+
+        
+    
+    
+            var marker_24027924bd39b8534a0e569f7836d868 = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1a3de58fb1b9362622c3c4a519d13130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48f0af87aec0eac222d2f0e36daff17 = $(`<div id="html_e48f0af87aec0eac222d2f0e36daff17" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_1a3de58fb1b9362622c3c4a519d13130.setContent(html_e48f0af87aec0eac222d2f0e36daff17);
+        
+
+        marker_24027924bd39b8534a0e569f7836d868.bindPopup(popup_1a3de58fb1b9362622c3c4a519d13130)
+        ;
+
+        
+    
+    
+            var marker_ddb16c5bf33b4fafb7f21b619078c515 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4595275be13498094399cb06e8406cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d6972a037c082401ca14c55c417d071 = $(`<div id="html_9d6972a037c082401ca14c55c417d071" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_4595275be13498094399cb06e8406cb7.setContent(html_9d6972a037c082401ca14c55c417d071);
+        
+
+        marker_ddb16c5bf33b4fafb7f21b619078c515.bindPopup(popup_4595275be13498094399cb06e8406cb7)
+        ;
+
+        
+    
+    
+            var marker_6d570b97e102df69ad34be543c4b55e8 = L.marker(
+                [48.8574, 2.2636],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_133efdb80d00d552b1c03a47a56697f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62804101a551e21c6c76d6ea16432e38 = $(`<div id="html_62804101a551e21c6c76d6ea16432e38" style="width: 100.0%; height: 100.0%;">Musée Marmottan Monet, Paris, France</div>`)[0];
+            popup_133efdb80d00d552b1c03a47a56697f6.setContent(html_62804101a551e21c6c76d6ea16432e38);
+        
+
+        marker_6d570b97e102df69ad34be543c4b55e8.bindPopup(popup_133efdb80d00d552b1c03a47a56697f6)
+        ;
+
+        
+    
+    
+            var marker_f3ab92034f64616b570c5352b151ab6b = L.marker(
+                [35.2336, 139.0266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7c69e79b8d41060560126bd4119002a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83796229d6e38bdf1e2642aa0351e66c = $(`<div id="html_83796229d6e38bdf1e2642aa0351e66c" style="width: 100.0%; height: 100.0%;">Pola Museum of Art, Hakone, Japan</div>`)[0];
+            popup_7c69e79b8d41060560126bd4119002a8.setContent(html_83796229d6e38bdf1e2642aa0351e66c);
+        
+
+        marker_f3ab92034f64616b570c5352b151ab6b.bindPopup(popup_7c69e79b8d41060560126bd4119002a8)
+        ;
+
+        
+    
+    
+            var marker_19d100190e18f996d9bf6e7fd4442c96 = L.marker(
+                [47.5169, 19.0772],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5dea2bd2c0deb92172e2e1a2f174e4ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba5bf018b0a349214401832772d88318 = $(`<div id="html_ba5bf018b0a349214401832772d88318" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Budapest, Hungary</div>`)[0];
+            popup_5dea2bd2c0deb92172e2e1a2f174e4ee.setContent(html_ba5bf018b0a349214401832772d88318);
+        
+
+        marker_19d100190e18f996d9bf6e7fd4442c96.bindPopup(popup_5dea2bd2c0deb92172e2e1a2f174e4ee)
+        ;
+
+        
+    
+    
+            var marker_722e6c22c1825d02f197b3d6577850d8 = L.marker(
+                [55.6741, 12.5726],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_836166d9a97bcffd12cf4181c535578e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf2d2b0127a7288a3502cc03ca313ab = $(`<div id="html_5bf2d2b0127a7288a3502cc03ca313ab" style="width: 100.0%; height: 100.0%;">Ny Carlsberg Glyptotek, Copenhagen, Denmark</div>`)[0];
+            popup_836166d9a97bcffd12cf4181c535578e.setContent(html_5bf2d2b0127a7288a3502cc03ca313ab);
+        
+
+        marker_722e6c22c1825d02f197b3d6577850d8.bindPopup(popup_836166d9a97bcffd12cf4181c535578e)
+        ;
+
+        
+    
+    
+            var marker_b7c06902806087f8e56718c26b6141f3 = L.marker(
+                [45.4386, 12.3275],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e56d0c2cee0b69d0377febfbc056763f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe315fa717b0f76c53e01d1d3c10a79 = $(`<div id="html_bfe315fa717b0f76c53e01d1d3c10a79" style="width: 100.0%; height: 100.0%;">Museo d'Arte Moderna di Ca' Pesaro, Venice, Italy</div>`)[0];
+            popup_e56d0c2cee0b69d0377febfbc056763f.setContent(html_bfe315fa717b0f76c53e01d1d3c10a79);
+        
+
+        marker_b7c06902806087f8e56718c26b6141f3.bindPopup(popup_e56d0c2cee0b69d0377febfbc056763f)
+        ;
+
+        
+    
+    
+            var marker_4d8c97d9d087d411018353e1cfacd8e0 = L.marker(
+                [-35.3075, 149.1346],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_978c34a5e1222dd58fa12aed4438b577 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_092922ca5f2a1d0b394d3e7f22345573 = $(`<div id="html_092922ca5f2a1d0b394d3e7f22345573" style="width: 100.0%; height: 100.0%;">National Gallery of Australia, Canberra, Australia</div>`)[0];
+            popup_978c34a5e1222dd58fa12aed4438b577.setContent(html_092922ca5f2a1d0b394d3e7f22345573);
+        
+
+        marker_4d8c97d9d087d411018353e1cfacd8e0.bindPopup(popup_978c34a5e1222dd58fa12aed4438b577)
+        ;
+
+        
+    
+    
+            var marker_f40cd49366116ddba87261f0fe028279 = L.marker(
+                [45.7673, 4.834],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_ccd43b2133f99247f7919ab27b73b625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9d3ad463696b17b75bacacb22052245 = $(`<div id="html_c9d3ad463696b17b75bacacb22052245" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts de Lyon, Lyon, France</div>`)[0];
+            popup_ccd43b2133f99247f7919ab27b73b625.setContent(html_c9d3ad463696b17b75bacacb22052245);
+        
+
+        marker_f40cd49366116ddba87261f0fe028279.bindPopup(popup_ccd43b2133f99247f7919ab27b73b625)
+        ;
+
+        
+    
+    
+            var marker_ec6dac44c3d21a79c3011153dd78fcca = L.marker(
+                [53.3407, -6.2526],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5f92c4a3b0bf88e4368ba8499d109492 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c578b91c96b52ee253b6094dffbc3a59 = $(`<div id="html_c578b91c96b52ee253b6094dffbc3a59" style="width: 100.0%; height: 100.0%;">National Gallery of Ireland, Dublin, Ireland</div>`)[0];
+            popup_5f92c4a3b0bf88e4368ba8499d109492.setContent(html_c578b91c96b52ee253b6094dffbc3a59);
+        
+
+        marker_ec6dac44c3d21a79c3011153dd78fcca.bindPopup(popup_5f92c4a3b0bf88e4368ba8499d109492)
+        ;
+
+        
+    
+    
+            var marker_4e8e905df0c612b861ff16e77a8f22c5 = L.marker(
+                [43.6108, 3.877],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7f5c90480cfa8bee0e661c17d4bf716d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2987aebed2b67c43bded07cfd86f29b5 = $(`<div id="html_2987aebed2b67c43bded07cfd86f29b5" style="width: 100.0%; height: 100.0%;">Musée Fabre, Montpellier, France</div>`)[0];
+            popup_7f5c90480cfa8bee0e661c17d4bf716d.setContent(html_2987aebed2b67c43bded07cfd86f29b5);
+        
+
+        marker_4e8e905df0c612b861ff16e77a8f22c5.bindPopup(popup_7f5c90480cfa8bee0e661c17d4bf716d)
+        ;
+
+        
+    
+    
+            var marker_a0d0d0464491767938858a2721c9dafc = L.marker(
+                [48.2044, 16.368],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1380ad7a4ea8c43ef4e396808ec38e12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad61a0b9ed687303bf7b896cc5850771 = $(`<div id="html_ad61a0b9ed687303bf7b896cc5850771" style="width: 100.0%; height: 100.0%;">Albertina, Vienna, Austria</div>`)[0];
+            popup_1380ad7a4ea8c43ef4e396808ec38e12.setContent(html_ad61a0b9ed687303bf7b896cc5850771);
+        
+
+        marker_a0d0d0464491767938858a2721c9dafc.bindPopup(popup_1380ad7a4ea8c43ef4e396808ec38e12)
+        ;
+
+        
+    
+    
+            var marker_ff6e4fd2c7c3eae334bba0e5e593299c = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c3a0d791cd304d710e73b9ccb89e58d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd72759d5eaf0c8255dc5f9fa94194a0 = $(`<div id="html_cd72759d5eaf0c8255dc5f9fa94194a0" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_c3a0d791cd304d710e73b9ccb89e58d1.setContent(html_cd72759d5eaf0c8255dc5f9fa94194a0);
+        
+
+        marker_ff6e4fd2c7c3eae334bba0e5e593299c.bindPopup(popup_c3a0d791cd304d710e73b9ccb89e58d1)
+        ;
+
+        
+    
+    
+            var marker_41136f6a10282d288fb05371654a323e = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_cd9353a18ee8ec9ad3ce239456b75aab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6b1609714c9e3049161326406e4d5fe = $(`<div id="html_d6b1609714c9e3049161326406e4d5fe" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_cd9353a18ee8ec9ad3ce239456b75aab.setContent(html_d6b1609714c9e3049161326406e4d5fe);
+        
+
+        marker_41136f6a10282d288fb05371654a323e.bindPopup(popup_cd9353a18ee8ec9ad3ce239456b75aab)
+        ;
+
+        
+    
+    
+            var marker_f68e2305e4fe0aeea9653691b89a26c9 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b2b9fdd3d5747f4225357febeff8d9e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97b906b89ac6103c0c027469e37bbac9 = $(`<div id="html_97b906b89ac6103c0c027469e37bbac9" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_b2b9fdd3d5747f4225357febeff8d9e2.setContent(html_97b906b89ac6103c0c027469e37bbac9);
+        
+
+        marker_f68e2305e4fe0aeea9653691b89a26c9.bindPopup(popup_b2b9fdd3d5747f4225357febeff8d9e2)
+        ;
+
+        
+    
+    
+            var marker_9620e39fd4af0b4e2abac88af9cd7b80 = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f16e71cac9ecec87009f5a83c77fcfc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ecc1031e0d9a4ec5226f2fc00fa6d61 = $(`<div id="html_9ecc1031e0d9a4ec5226f2fc00fa6d61" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_f16e71cac9ecec87009f5a83c77fcfc9.setContent(html_9ecc1031e0d9a4ec5226f2fc00fa6d61);
+        
+
+        marker_9620e39fd4af0b4e2abac88af9cd7b80.bindPopup(popup_f16e71cac9ecec87009f5a83c77fcfc9)
+        ;
+
+        
+    
+    
+            var marker_e48ad9215eb180d87ac0e5ebe81007a0 = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8722258e08cce417bf0ab990d0a1e316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48cca2cfc8083ea2c8ebd269f93ea544 = $(`<div id="html_48cca2cfc8083ea2c8ebd269f93ea544" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_8722258e08cce417bf0ab990d0a1e316.setContent(html_48cca2cfc8083ea2c8ebd269f93ea544);
+        
+
+        marker_e48ad9215eb180d87ac0e5ebe81007a0.bindPopup(popup_8722258e08cce417bf0ab990d0a1e316)
+        ;
+
+        
+    
+    
+            var marker_aeba9d1dd7c5b6e9a3b258900049c37d = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_23a24233970ac14a84e6deafb52b8946 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f44afb8407d9f2710cbb406142b638e = $(`<div id="html_1f44afb8407d9f2710cbb406142b638e" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_23a24233970ac14a84e6deafb52b8946.setContent(html_1f44afb8407d9f2710cbb406142b638e);
+        
+
+        marker_aeba9d1dd7c5b6e9a3b258900049c37d.bindPopup(popup_23a24233970ac14a84e6deafb52b8946)
+        ;
+
+        
+    
+    
+            var marker_487ad23aafe9fa803cfea30391e2bdec = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_560a8ccf3f0b47aa78b86f5556e85b5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_630b30742127f7a1462749edf34c0aaa = $(`<div id="html_630b30742127f7a1462749edf34c0aaa" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_560a8ccf3f0b47aa78b86f5556e85b5b.setContent(html_630b30742127f7a1462749edf34c0aaa);
+        
+
+        marker_487ad23aafe9fa803cfea30391e2bdec.bindPopup(popup_560a8ccf3f0b47aa78b86f5556e85b5b)
+        ;
+
+        
+    
+    
+            var marker_28860cc2d8e46af66d61edf986ad6d38 = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8afd6854f0e4722a23927f53c8f4766a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ebbdd6f9b0a8a2eed2e7b379bc07935 = $(`<div id="html_7ebbdd6f9b0a8a2eed2e7b379bc07935" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_8afd6854f0e4722a23927f53c8f4766a.setContent(html_7ebbdd6f9b0a8a2eed2e7b379bc07935);
+        
+
+        marker_28860cc2d8e46af66d61edf986ad6d38.bindPopup(popup_8afd6854f0e4722a23927f53c8f4766a)
+        ;
+
+        
+    
+    
+            var marker_cd16bc224c8e67370a05516a7a630b33 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_319165b01c144cc1d4285ddceccc73ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_204457712f6c9b52cbd23dfc9b7e2d1b = $(`<div id="html_204457712f6c9b52cbd23dfc9b7e2d1b" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_319165b01c144cc1d4285ddceccc73ec.setContent(html_204457712f6c9b52cbd23dfc9b7e2d1b);
+        
+
+        marker_cd16bc224c8e67370a05516a7a630b33.bindPopup(popup_319165b01c144cc1d4285ddceccc73ec)
+        ;
+
+        
+    
+    
+            var marker_8bb63ad735a3071d648a8d54c998327e = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f9a2a7a72303ca3fe3253c8727056b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4103de205fd5ff51bc22200beefc6c7b = $(`<div id="html_4103de205fd5ff51bc22200beefc6c7b" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_f9a2a7a72303ca3fe3253c8727056b04.setContent(html_4103de205fd5ff51bc22200beefc6c7b);
+        
+
+        marker_8bb63ad735a3071d648a8d54c998327e.bindPopup(popup_f9a2a7a72303ca3fe3253c8727056b04)
+        ;
+
+        
+    
+    
+            var marker_cd19210b5ab7cea9f3ad337a039ea07c = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f142b2b1d74ddc1febb1b957b0ce658c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fef2e3178eaf40008a9c8d9180cc983 = $(`<div id="html_6fef2e3178eaf40008a9c8d9180cc983" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_f142b2b1d74ddc1febb1b957b0ce658c.setContent(html_6fef2e3178eaf40008a9c8d9180cc983);
+        
+
+        marker_cd19210b5ab7cea9f3ad337a039ea07c.bindPopup(popup_f142b2b1d74ddc1febb1b957b0ce658c)
+        ;
+
+        
+    
+    
+            var marker_8d7d40f5cbbf4cc3057c1f1c22b71953 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4b2216545e1b935c69842a99aa70a2d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b86db604d3e67c58c53ad37a8984e0 = $(`<div id="html_81b86db604d3e67c58c53ad37a8984e0" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_4b2216545e1b935c69842a99aa70a2d0.setContent(html_81b86db604d3e67c58c53ad37a8984e0);
+        
+
+        marker_8d7d40f5cbbf4cc3057c1f1c22b71953.bindPopup(popup_4b2216545e1b935c69842a99aa70a2d0)
+        ;
+
+        
+    
+    
+            var marker_56f6027a77b87195e12897074a044be1 = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e3f181afd512f8dcc18cc3f73bb66941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_479a44e08102540f4137c2f78f645ac7 = $(`<div id="html_479a44e08102540f4137c2f78f645ac7" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_e3f181afd512f8dcc18cc3f73bb66941.setContent(html_479a44e08102540f4137c2f78f645ac7);
+        
+
+        marker_56f6027a77b87195e12897074a044be1.bindPopup(popup_e3f181afd512f8dcc18cc3f73bb66941)
+        ;
+
+        
+    
+    
+            var marker_83981be374f1ab9d0ffbc180270a86a5 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a78b0c81ce99593cef3f9c2560fe64ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18e8ee493b39bf3266b5bdd73123fb90 = $(`<div id="html_18e8ee493b39bf3266b5bdd73123fb90" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_a78b0c81ce99593cef3f9c2560fe64ea.setContent(html_18e8ee493b39bf3266b5bdd73123fb90);
+        
+
+        marker_83981be374f1ab9d0ffbc180270a86a5.bindPopup(popup_a78b0c81ce99593cef3f9c2560fe64ea)
+        ;
+
+        
+    
+    
+            var marker_02c0f2c0a44815d2917f319a3a451d28 = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_ec62517a96674fb2b632b800c9290502 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4e6f0269c78ec4f8c4781d60c6d597f = $(`<div id="html_c4e6f0269c78ec4f8c4781d60c6d597f" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_ec62517a96674fb2b632b800c9290502.setContent(html_c4e6f0269c78ec4f8c4781d60c6d597f);
+        
+
+        marker_02c0f2c0a44815d2917f319a3a451d28.bindPopup(popup_ec62517a96674fb2b632b800c9290502)
+        ;
+
+        
+    
+    
+            var marker_40b2aee198c5df431bc17ed321a20723 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_bca63b8b95d987edf97e636d4cd49941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b6b198e575b0e90ae5c388d73b26409 = $(`<div id="html_3b6b198e575b0e90ae5c388d73b26409" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_bca63b8b95d987edf97e636d4cd49941.setContent(html_3b6b198e575b0e90ae5c388d73b26409);
+        
+
+        marker_40b2aee198c5df431bc17ed321a20723.bindPopup(popup_bca63b8b95d987edf97e636d4cd49941)
+        ;
+
+        
+    
+    
+            var marker_aec9e660e763bc724390d67dbcf65525 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d97960f463304c83b5c38a97347ffdf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9d427285fe48f2950412ffd766f133 = $(`<div id="html_0e9d427285fe48f2950412ffd766f133" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_d97960f463304c83b5c38a97347ffdf5.setContent(html_0e9d427285fe48f2950412ffd766f133);
+        
+
+        marker_aec9e660e763bc724390d67dbcf65525.bindPopup(popup_d97960f463304c83b5c38a97347ffdf5)
+        ;
+
+        
+    
+    
+            var marker_e3fd78371debf0c0119425a1c1d0e231 = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_fb3a141cde0413dc3edc673d188dc47a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b068d746e8e6892cd39a03a3ee627d = $(`<div id="html_84b068d746e8e6892cd39a03a3ee627d" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_fb3a141cde0413dc3edc673d188dc47a.setContent(html_84b068d746e8e6892cd39a03a3ee627d);
+        
+
+        marker_e3fd78371debf0c0119425a1c1d0e231.bindPopup(popup_fb3a141cde0413dc3edc673d188dc47a)
+        ;
+
+        
+    
+    
+            var marker_7c5b28ba39c9710981feb9435848f346 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_259fdca719270eb4f48f3ee0ada7e30c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2a61e3013ab3e7658779d6190a18a89 = $(`<div id="html_f2a61e3013ab3e7658779d6190a18a89" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_259fdca719270eb4f48f3ee0ada7e30c.setContent(html_f2a61e3013ab3e7658779d6190a18a89);
+        
+
+        marker_7c5b28ba39c9710981feb9435848f346.bindPopup(popup_259fdca719270eb4f48f3ee0ada7e30c)
+        ;
+
+        
+    
+    
+            var marker_148ad4ac3acdad0e124aeeff7ce42749 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_822f4a405cada637cd570ac02fb93fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be1eb0099a1033a47ef48150cd664cd9 = $(`<div id="html_be1eb0099a1033a47ef48150cd664cd9" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_822f4a405cada637cd570ac02fb93fa4.setContent(html_be1eb0099a1033a47ef48150cd664cd9);
+        
+
+        marker_148ad4ac3acdad0e124aeeff7ce42749.bindPopup(popup_822f4a405cada637cd570ac02fb93fa4)
+        ;
+
+        
+    
+    
+            var marker_e566e421a61cdce09b273fa21044f9d2 = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a8e59c8fc6faafd78d02f9075c24deb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf48a005cbc2ac6d05ab5b79784d0c6 = $(`<div id="html_1cf48a005cbc2ac6d05ab5b79784d0c6" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_a8e59c8fc6faafd78d02f9075c24deb6.setContent(html_1cf48a005cbc2ac6d05ab5b79784d0c6);
+        
+
+        marker_e566e421a61cdce09b273fa21044f9d2.bindPopup(popup_a8e59c8fc6faafd78d02f9075c24deb6)
+        ;
+
+        
+    
+    
+            var marker_4b1fd9a4e198df274e1052a8b331e87b = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0ad75dd4113b76cae9971cba944ae826 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c1348607b09a7e640bc3f843f236766 = $(`<div id="html_7c1348607b09a7e640bc3f843f236766" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_0ad75dd4113b76cae9971cba944ae826.setContent(html_7c1348607b09a7e640bc3f843f236766);
+        
+
+        marker_4b1fd9a4e198df274e1052a8b331e87b.bindPopup(popup_0ad75dd4113b76cae9971cba944ae826)
+        ;
+
+        
+    
+    
+            var marker_f17080e875b73faeb1d4472cde90c51b = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5d993b92ae35b3fdba52037529bee1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a2aa9b0c3f651722f89795ca24b3091 = $(`<div id="html_2a2aa9b0c3f651722f89795ca24b3091" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_5d993b92ae35b3fdba52037529bee1c9.setContent(html_2a2aa9b0c3f651722f89795ca24b3091);
+        
+
+        marker_f17080e875b73faeb1d4472cde90c51b.bindPopup(popup_5d993b92ae35b3fdba52037529bee1c9)
+        ;
+
+        
+    
+    
+            var marker_2b4748a53a9220bab5cc0e8bad3ba602 = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0d104b14d5e6c09fb48505791e190826 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8177670ac69a42ce3d2308b9c69b8e9 = $(`<div id="html_e8177670ac69a42ce3d2308b9c69b8e9" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_0d104b14d5e6c09fb48505791e190826.setContent(html_e8177670ac69a42ce3d2308b9c69b8e9);
+        
+
+        marker_2b4748a53a9220bab5cc0e8bad3ba602.bindPopup(popup_0d104b14d5e6c09fb48505791e190826)
+        ;
+
+        
+    
+    
+            var marker_3398ec7628d806223ff88e3a09b411e8 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_efdf1c43eecddd712673396aa74c6de5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76bcfe0e3675b86eafe79b6be5da8a1 = $(`<div id="html_a76bcfe0e3675b86eafe79b6be5da8a1" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_efdf1c43eecddd712673396aa74c6de5.setContent(html_a76bcfe0e3675b86eafe79b6be5da8a1);
+        
+
+        marker_3398ec7628d806223ff88e3a09b411e8.bindPopup(popup_efdf1c43eecddd712673396aa74c6de5)
+        ;
+
+        
+    
+    
+            var marker_35f60d41dd26913d13a96215711f21c9 = L.marker(
+                [41.5089, -81.6115],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0b915cca4248d1dd16cf221347b371d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41cc2d88079eb46ab7eb16ae988641e9 = $(`<div id="html_41cc2d88079eb46ab7eb16ae988641e9" style="width: 100.0%; height: 100.0%;">Cleveland Museum of Art, Cleveland, USA</div>`)[0];
+            popup_0b915cca4248d1dd16cf221347b371d6.setContent(html_41cc2d88079eb46ab7eb16ae988641e9);
+        
+
+        marker_35f60d41dd26913d13a96215711f21c9.bindPopup(popup_0b915cca4248d1dd16cf221347b371d6)
+        ;
+
+        
+    
+    
+            var marker_2fff8a8aa1ae1d4261d4fbd258c31d7a = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_af1206c4990dc5f01da1bb8b91752d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9181f2385b1f9bce3172e025e128581 = $(`<div id="html_b9181f2385b1f9bce3172e025e128581" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_af1206c4990dc5f01da1bb8b91752d50.setContent(html_b9181f2385b1f9bce3172e025e128581);
+        
+
+        marker_2fff8a8aa1ae1d4261d4fbd258c31d7a.bindPopup(popup_af1206c4990dc5f01da1bb8b91752d50)
+        ;
+
+        
+    
+    
+            var marker_15858ceeddf4d709af13b403a469964b = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a203462693c135e4afd6e440334c131c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_009891a88aca6f49467d8ffd05872e5c = $(`<div id="html_009891a88aca6f49467d8ffd05872e5c" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_a203462693c135e4afd6e440334c131c.setContent(html_009891a88aca6f49467d8ffd05872e5c);
+        
+
+        marker_15858ceeddf4d709af13b403a469964b.bindPopup(popup_a203462693c135e4afd6e440334c131c)
+        ;
+
+        
+    
+    
+            var marker_79d05f21a93befd3537e7691273bd165 = L.marker(
+                [47.5596, 7.5886],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3b32eb3c9f47fc45703374d4cf6d98e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fb6e276203169390886f8a10fec6baf = $(`<div id="html_2fb6e276203169390886f8a10fec6baf" style="width: 100.0%; height: 100.0%;">Kunstmuseum Basel, Basel, Switzerland</div>`)[0];
+            popup_3b32eb3c9f47fc45703374d4cf6d98e6.setContent(html_2fb6e276203169390886f8a10fec6baf);
+        
+
+        marker_79d05f21a93befd3537e7691273bd165.bindPopup(popup_3b32eb3c9f47fc45703374d4cf6d98e6)
+        ;
+
+        
+    
+    
+            var marker_e7154855079c0f27fb644d0a0b348a9f = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_01ac6cc1b414fd6d240b76e16ccf72b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47478e212bf9decb9fcc1b0ba004ad5d = $(`<div id="html_47478e212bf9decb9fcc1b0ba004ad5d" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_01ac6cc1b414fd6d240b76e16ccf72b3.setContent(html_47478e212bf9decb9fcc1b0ba004ad5d);
+        
+
+        marker_e7154855079c0f27fb644d0a0b348a9f.bindPopup(popup_01ac6cc1b414fd6d240b76e16ccf72b3)
+        ;
+
+        
+    
+    
+            var marker_78e61f15e63fdb3573864c093c02ebf3 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f993124b29c3042b680abe9ccfd8637f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bff591237939a318c76520a6fca51b9 = $(`<div id="html_5bff591237939a318c76520a6fca51b9" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_f993124b29c3042b680abe9ccfd8637f.setContent(html_5bff591237939a318c76520a6fca51b9);
+        
+
+        marker_78e61f15e63fdb3573864c093c02ebf3.bindPopup(popup_f993124b29c3042b680abe9ccfd8637f)
+        ;
+
+        
+    
+    
+            var marker_b96f0e951193ad748cdd28f2aec12dc4 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4d336b4d903606a7eae113ae6a388b1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ccdc3cbdb46131531d75c12f76f266f = $(`<div id="html_2ccdc3cbdb46131531d75c12f76f266f" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_4d336b4d903606a7eae113ae6a388b1c.setContent(html_2ccdc3cbdb46131531d75c12f76f266f);
+        
+
+        marker_b96f0e951193ad748cdd28f2aec12dc4.bindPopup(popup_4d336b4d903606a7eae113ae6a388b1c)
+        ;
+
+        
+    
+    
+            var marker_10e67ca35f735e19fe91f68640478c8b = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_09f40d5d98565601d819638494413e79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_746c9ebd53270b58fcfdb7336b2b2537 = $(`<div id="html_746c9ebd53270b58fcfdb7336b2b2537" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_09f40d5d98565601d819638494413e79.setContent(html_746c9ebd53270b58fcfdb7336b2b2537);
+        
+
+        marker_10e67ca35f735e19fe91f68640478c8b.bindPopup(popup_09f40d5d98565601d819638494413e79)
+        ;
+
+        
+    
+    
+            var marker_f1a5a95d82a63a7e546c1a8bdd52f232 = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3ddca752d61d7304dc838f2d6a95e152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a1d3afb55ccfb6bd77855e6d3c8668d = $(`<div id="html_6a1d3afb55ccfb6bd77855e6d3c8668d" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_3ddca752d61d7304dc838f2d6a95e152.setContent(html_6a1d3afb55ccfb6bd77855e6d3c8668d);
+        
+
+        marker_f1a5a95d82a63a7e546c1a8bdd52f232.bindPopup(popup_3ddca752d61d7304dc838f2d6a95e152)
+        ;
+
+        
+    
+    
+            var marker_705afcdbe0e407c9350fce5b7898fda6 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_168ad10affcf17c3dd41037224b7a29a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dbbd722346ce520d5699e6702fa7855 = $(`<div id="html_8dbbd722346ce520d5699e6702fa7855" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_168ad10affcf17c3dd41037224b7a29a.setContent(html_8dbbd722346ce520d5699e6702fa7855);
+        
+
+        marker_705afcdbe0e407c9350fce5b7898fda6.bindPopup(popup_168ad10affcf17c3dd41037224b7a29a)
+        ;
+
+        
+    
+    
+            var marker_7b20ef15ea32e08d07b06a4cc1904774 = L.marker(
+                [45.1931, 5.7265],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_71d830c346c3a00ec9a052e0e0ec89db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a457de29472267f8c22407699361337e = $(`<div id="html_a457de29472267f8c22407699361337e" style="width: 100.0%; height: 100.0%;">Musée de Grenoble, Grenoble, France</div>`)[0];
+            popup_71d830c346c3a00ec9a052e0e0ec89db.setContent(html_a457de29472267f8c22407699361337e);
+        
+
+        marker_7b20ef15ea32e08d07b06a4cc1904774.bindPopup(popup_71d830c346c3a00ec9a052e0e0ec89db)
+        ;
+
+        
+    
+    
+            var marker_18811a05feb0c788b328028c78286cb7 = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_28315dbd35a827298cdb613deaae4f4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a70000d66590202983b2632c7b03427 = $(`<div id="html_7a70000d66590202983b2632c7b03427" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_28315dbd35a827298cdb613deaae4f4a.setContent(html_7a70000d66590202983b2632c7b03427);
+        
+
+        marker_18811a05feb0c788b328028c78286cb7.bindPopup(popup_28315dbd35a827298cdb613deaae4f4a)
+        ;
+
+        
+    
+    
+            var marker_ab8bde11fa6002ceee4af9f8581ba4fd = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0cf715b392fc50c57e3c8bf0535123bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90e1fe61addb6cd860ab9b4793f76014 = $(`<div id="html_90e1fe61addb6cd860ab9b4793f76014" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_0cf715b392fc50c57e3c8bf0535123bb.setContent(html_90e1fe61addb6cd860ab9b4793f76014);
+        
+
+        marker_ab8bde11fa6002ceee4af9f8581ba4fd.bindPopup(popup_0cf715b392fc50c57e3c8bf0535123bb)
+        ;
+
+        
+    
+    
+            var marker_669b96901b16fc3531902fd8fff743f6 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_17bbeb3396abf8ea4779da86bcf73223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a42f295634310c6357f2738bd130e05 = $(`<div id="html_7a42f295634310c6357f2738bd130e05" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_17bbeb3396abf8ea4779da86bcf73223.setContent(html_7a42f295634310c6357f2738bd130e05);
+        
+
+        marker_669b96901b16fc3531902fd8fff743f6.bindPopup(popup_17bbeb3396abf8ea4779da86bcf73223)
+        ;
+
+        
+    
+    
+            var marker_15c1fdf6219771a70afa80844e4fbb13 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9f090192a540b0cf7725f7f69c2e2885 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db72a44a921d9c895d908036296995fa = $(`<div id="html_db72a44a921d9c895d908036296995fa" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_9f090192a540b0cf7725f7f69c2e2885.setContent(html_db72a44a921d9c895d908036296995fa);
+        
+
+        marker_15c1fdf6219771a70afa80844e4fbb13.bindPopup(popup_9f090192a540b0cf7725f7f69c2e2885)
+        ;
+
+        
+    
+    
+            var marker_d6df6f9976c65069fab9c7915ec47a4e = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_cfb2352b0fb5505bd014898181828a43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83349a35ee340db2f6f3653cb207610f = $(`<div id="html_83349a35ee340db2f6f3653cb207610f" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_cfb2352b0fb5505bd014898181828a43.setContent(html_83349a35ee340db2f6f3653cb207610f);
+        
+
+        marker_d6df6f9976c65069fab9c7915ec47a4e.bindPopup(popup_cfb2352b0fb5505bd014898181828a43)
+        ;
+
+        
+    
+    
+            var marker_98c46631af5fa08d934fe44f46bb7627 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7fd62b4413554f48e4ef683c51580980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f96122f077425431de342482caa9f0 = $(`<div id="html_32f96122f077425431de342482caa9f0" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_7fd62b4413554f48e4ef683c51580980.setContent(html_32f96122f077425431de342482caa9f0);
+        
+
+        marker_98c46631af5fa08d934fe44f46bb7627.bindPopup(popup_7fd62b4413554f48e4ef683c51580980)
+        ;
+
+        
+    
+    
+            var marker_01441f4a64f44584cc78c18966840a35 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_68cd28892245d4d3fd37111e08c2eb20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4062ceac46a0b5864d4b088b052492c1 = $(`<div id="html_4062ceac46a0b5864d4b088b052492c1" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_68cd28892245d4d3fd37111e08c2eb20.setContent(html_4062ceac46a0b5864d4b088b052492c1);
+        
+
+        marker_01441f4a64f44584cc78c18966840a35.bindPopup(popup_68cd28892245d4d3fd37111e08c2eb20)
+        ;
+
+        
+    
+    
+            var marker_aed6ae4dd485615b7256f33881123fd0 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5e9fef45c85694a5320ce4d8f3be1c65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d26e31ae0bd4bf84ce97da5d0cec46b2 = $(`<div id="html_d26e31ae0bd4bf84ce97da5d0cec46b2" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_5e9fef45c85694a5320ce4d8f3be1c65.setContent(html_d26e31ae0bd4bf84ce97da5d0cec46b2);
+        
+
+        marker_aed6ae4dd485615b7256f33881123fd0.bindPopup(popup_5e9fef45c85694a5320ce4d8f3be1c65)
+        ;
+
+        
+    
+    
+            var marker_382e1827ae40bf0c423329eb8294bca0 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_854cf6745c8515c9d56d0aab849f0113 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cb8be88128c2f1ead0f42212bf3bd51 = $(`<div id="html_3cb8be88128c2f1ead0f42212bf3bd51" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_854cf6745c8515c9d56d0aab849f0113.setContent(html_3cb8be88128c2f1ead0f42212bf3bd51);
+        
+
+        marker_382e1827ae40bf0c423329eb8294bca0.bindPopup(popup_854cf6745c8515c9d56d0aab849f0113)
+        ;
+
+        
+    
+    
+            var marker_0fa907a85dd89c99ca9256697bd07f4b = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7ad5885dbfe256dab43afceaf0225568 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795251a517386ccb8120c57088c87c88 = $(`<div id="html_795251a517386ccb8120c57088c87c88" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_7ad5885dbfe256dab43afceaf0225568.setContent(html_795251a517386ccb8120c57088c87c88);
+        
+
+        marker_0fa907a85dd89c99ca9256697bd07f4b.bindPopup(popup_7ad5885dbfe256dab43afceaf0225568)
+        ;
+
+        
+    
+    
+            var marker_0905abb4ddff8582d8b13ae75ac801f8 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_28ce5c44826ed324757e9a6def84b2dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a8904cbfc4e8395fca23ab54f43daa = $(`<div id="html_86a8904cbfc4e8395fca23ab54f43daa" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_28ce5c44826ed324757e9a6def84b2dc.setContent(html_86a8904cbfc4e8395fca23ab54f43daa);
+        
+
+        marker_0905abb4ddff8582d8b13ae75ac801f8.bindPopup(popup_28ce5c44826ed324757e9a6def84b2dc)
+        ;
+
+        
+    
+    
+            var marker_bf42b18555f4917827e7030bb2ebbabb = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3ffe0991d5a1406b81d343d19d6bd184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be0d5c397e4b3b651f152f76317c269a = $(`<div id="html_be0d5c397e4b3b651f152f76317c269a" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_3ffe0991d5a1406b81d343d19d6bd184.setContent(html_be0d5c397e4b3b651f152f76317c269a);
+        
+
+        marker_bf42b18555f4917827e7030bb2ebbabb.bindPopup(popup_3ffe0991d5a1406b81d343d19d6bd184)
+        ;
+
+        
+    
+    
+            var marker_946c6114cdff09f5de85438481098bc4 = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2b16b4a3a949b1f5e943005099c4e31d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ffb8b82158dd1af91256daa72aba8c = $(`<div id="html_41ffb8b82158dd1af91256daa72aba8c" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_2b16b4a3a949b1f5e943005099c4e31d.setContent(html_41ffb8b82158dd1af91256daa72aba8c);
+        
+
+        marker_946c6114cdff09f5de85438481098bc4.bindPopup(popup_2b16b4a3a949b1f5e943005099c4e31d)
+        ;
+
+        
+    
+    
+            var marker_3ee675d29f58689f1d62dca53581ea29 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_fc5ee5465ef525d6ed3c728608794af0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c90ebfd12f1ec32a2a957acf4b21d96 = $(`<div id="html_6c90ebfd12f1ec32a2a957acf4b21d96" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_fc5ee5465ef525d6ed3c728608794af0.setContent(html_6c90ebfd12f1ec32a2a957acf4b21d96);
+        
+
+        marker_3ee675d29f58689f1d62dca53581ea29.bindPopup(popup_fc5ee5465ef525d6ed3c728608794af0)
+        ;
+
+        
+    
+    
+            var marker_aca2d87f9915a3b6c06630ac95ccd2fa = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_43df23001a1b7c7dfa87ff85b16c6105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0af77ef8ec667741bcf9c8ce87ed84b = $(`<div id="html_f0af77ef8ec667741bcf9c8ce87ed84b" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_43df23001a1b7c7dfa87ff85b16c6105.setContent(html_f0af77ef8ec667741bcf9c8ce87ed84b);
+        
+
+        marker_aca2d87f9915a3b6c06630ac95ccd2fa.bindPopup(popup_43df23001a1b7c7dfa87ff85b16c6105)
+        ;
+
+        
+    
+    
+            var marker_4523f1a3e9a96a5d3977f2a6a0a66dbe = L.marker(
+                [45.516, -122.6839],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8782af997e2bb7997348c1c23d683fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbf662c55bdccf4bed21d8c97a62168d = $(`<div id="html_cbf662c55bdccf4bed21d8c97a62168d" style="width: 100.0%; height: 100.0%;">Portland Art Museum, Portland, USA</div>`)[0];
+            popup_8782af997e2bb7997348c1c23d683fd2.setContent(html_cbf662c55bdccf4bed21d8c97a62168d);
+        
+
+        marker_4523f1a3e9a96a5d3977f2a6a0a66dbe.bindPopup(popup_8782af997e2bb7997348c1c23d683fd2)
+        ;
+
+        
+    
+    
+            var marker_e9428f99bc099511ef7c92a09666a530 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_467eafcc84f16c920dd224342a70138f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_670338a95eb972fa4a7a1d7fc44bc3cb = $(`<div id="html_670338a95eb972fa4a7a1d7fc44bc3cb" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_467eafcc84f16c920dd224342a70138f.setContent(html_670338a95eb972fa4a7a1d7fc44bc3cb);
+        
+
+        marker_e9428f99bc099511ef7c92a09666a530.bindPopup(popup_467eafcc84f16c920dd224342a70138f)
+        ;
+
+        
+    
+    
+            var marker_36074246c7dbee733ed394888f5260d1 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c5a9b48c856ae5c0c489f5098f53c7df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a858bc1ca8fb6da3e7fd8356c6fc83fe = $(`<div id="html_a858bc1ca8fb6da3e7fd8356c6fc83fe" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_c5a9b48c856ae5c0c489f5098f53c7df.setContent(html_a858bc1ca8fb6da3e7fd8356c6fc83fe);
+        
+
+        marker_36074246c7dbee733ed394888f5260d1.bindPopup(popup_c5a9b48c856ae5c0c489f5098f53c7df)
+        ;
+
+        
+    
+    
+            var marker_3b85af404fa90ff686501803e188ac8f = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_79bf18690510120d5d2b67f104cf6d23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceacf2bae2ec5bf689bc65980851b6f3 = $(`<div id="html_ceacf2bae2ec5bf689bc65980851b6f3" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_79bf18690510120d5d2b67f104cf6d23.setContent(html_ceacf2bae2ec5bf689bc65980851b6f3);
+        
+
+        marker_3b85af404fa90ff686501803e188ac8f.bindPopup(popup_79bf18690510120d5d2b67f104cf6d23)
+        ;
+
+        
+    
+    
+            var marker_22f62d1eb3f6d12603547c1f847f643f = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_cfa4cb79bfa7a4b5c9e7fdd2f71ea17a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b61a311c15d6f5eb3facf2e854a4618d = $(`<div id="html_b61a311c15d6f5eb3facf2e854a4618d" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_cfa4cb79bfa7a4b5c9e7fdd2f71ea17a.setContent(html_b61a311c15d6f5eb3facf2e854a4618d);
+        
+
+        marker_22f62d1eb3f6d12603547c1f847f643f.bindPopup(popup_cfa4cb79bfa7a4b5c9e7fdd2f71ea17a)
+        ;
+
+        
+    
+    
+            var marker_9eda0baf8d453246aac489869220423a = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b5b7e7d0a0d131938f077b074a3ba6aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc402bd44cc7e4866c4fb22785a4fb9 = $(`<div id="html_4cc402bd44cc7e4866c4fb22785a4fb9" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_b5b7e7d0a0d131938f077b074a3ba6aa.setContent(html_4cc402bd44cc7e4866c4fb22785a4fb9);
+        
+
+        marker_9eda0baf8d453246aac489869220423a.bindPopup(popup_b5b7e7d0a0d131938f077b074a3ba6aa)
+        ;
+
+        
+    
+    
+            var marker_f1cd5a6907b586d0e78c244be273e98c = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_04e887520d15aeee8a876ecdbf3b0608 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6545cc2c2c6f519f1397a115f702de27 = $(`<div id="html_6545cc2c2c6f519f1397a115f702de27" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_04e887520d15aeee8a876ecdbf3b0608.setContent(html_6545cc2c2c6f519f1397a115f702de27);
+        
+
+        marker_f1cd5a6907b586d0e78c244be273e98c.bindPopup(popup_04e887520d15aeee8a876ecdbf3b0608)
+        ;
+
+        
+    
+    
+            var marker_9c57eb519884405bffc5c2a4931aecb6 = L.marker(
+                [45.1931, 5.7265],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4b3973a3db851d3723162838a116813a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f42a7aea5e78bbc6b5dbe0523c3cf861 = $(`<div id="html_f42a7aea5e78bbc6b5dbe0523c3cf861" style="width: 100.0%; height: 100.0%;">Musée de Grenoble, Grenoble, France</div>`)[0];
+            popup_4b3973a3db851d3723162838a116813a.setContent(html_f42a7aea5e78bbc6b5dbe0523c3cf861);
+        
+
+        marker_9c57eb519884405bffc5c2a4931aecb6.bindPopup(popup_4b3973a3db851d3723162838a116813a)
+        ;
+
+        
+    
+    
+            var marker_76c552266cfa158378401a2f45b4579b = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e02a8da5cd9aad4fb2bc28d17a6ccb2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d88db161b57dde0bf079ae9fe0c811 = $(`<div id="html_94d88db161b57dde0bf079ae9fe0c811" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_e02a8da5cd9aad4fb2bc28d17a6ccb2c.setContent(html_94d88db161b57dde0bf079ae9fe0c811);
+        
+
+        marker_76c552266cfa158378401a2f45b4579b.bindPopup(popup_e02a8da5cd9aad4fb2bc28d17a6ccb2c)
+        ;
+
+        
+    
+    
+            var marker_e35a1131e4ee6c393757eac693ee6765 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_51a3a9bd381854d385dd363cf983c3cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f5bf32f6204cd183eb19726be55452e = $(`<div id="html_7f5bf32f6204cd183eb19726be55452e" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_51a3a9bd381854d385dd363cf983c3cb.setContent(html_7f5bf32f6204cd183eb19726be55452e);
+        
+
+        marker_e35a1131e4ee6c393757eac693ee6765.bindPopup(popup_51a3a9bd381854d385dd363cf983c3cb)
+        ;
+
+        
+    
+    
+            var marker_58deff2f8c4245d45012f3486afc8e18 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3efc6203c7ea979d85c8939f1265dba7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e86b5c5c46ed65c33ecc7a95c77bf940 = $(`<div id="html_e86b5c5c46ed65c33ecc7a95c77bf940" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_3efc6203c7ea979d85c8939f1265dba7.setContent(html_e86b5c5c46ed65c33ecc7a95c77bf940);
+        
+
+        marker_58deff2f8c4245d45012f3486afc8e18.bindPopup(popup_3efc6203c7ea979d85c8939f1265dba7)
+        ;
+
+        
+    
+    
+            var marker_4ccc4bcad8f40259ee1bcd558ef89e95 = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d6da32cbd044ed5b1afe1ee6ef1b0185 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_101bc005fc41db0bd32e14c5249f3bb1 = $(`<div id="html_101bc005fc41db0bd32e14c5249f3bb1" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_d6da32cbd044ed5b1afe1ee6ef1b0185.setContent(html_101bc005fc41db0bd32e14c5249f3bb1);
+        
+
+        marker_4ccc4bcad8f40259ee1bcd558ef89e95.bindPopup(popup_d6da32cbd044ed5b1afe1ee6ef1b0185)
+        ;
+
+        
+    
+    
+            var marker_fcc100813b67783e45d2b94a021199ef = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3b28f8c9ff1ccfb38f75377fbaa2ea4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15fef9e62c23f7bdfe2954ce4e41377c = $(`<div id="html_15fef9e62c23f7bdfe2954ce4e41377c" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_3b28f8c9ff1ccfb38f75377fbaa2ea4a.setContent(html_15fef9e62c23f7bdfe2954ce4e41377c);
+        
+
+        marker_fcc100813b67783e45d2b94a021199ef.bindPopup(popup_3b28f8c9ff1ccfb38f75377fbaa2ea4a)
+        ;
+
+        
+    
+    
+            var marker_acc8db7bf7856acc6d94ff17d92ce10d = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a677558f39de1289d20ec3997ed4047a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01fbaf2bf21f62a643a5d8afa9a3c0e2 = $(`<div id="html_01fbaf2bf21f62a643a5d8afa9a3c0e2" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_a677558f39de1289d20ec3997ed4047a.setContent(html_01fbaf2bf21f62a643a5d8afa9a3c0e2);
+        
+
+        marker_acc8db7bf7856acc6d94ff17d92ce10d.bindPopup(popup_a677558f39de1289d20ec3997ed4047a)
+        ;
+
+        
+    
+    
+            var marker_90f0008d0fe76a0cf6b23c38d789400b = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f63378304273b067562a5084657f7097 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532c593a227ee49177c26b79146ccd3f = $(`<div id="html_532c593a227ee49177c26b79146ccd3f" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_f63378304273b067562a5084657f7097.setContent(html_532c593a227ee49177c26b79146ccd3f);
+        
+
+        marker_90f0008d0fe76a0cf6b23c38d789400b.bindPopup(popup_f63378304273b067562a5084657f7097)
+        ;
+
+        
+    
+    
+            var marker_7937e98fb282922956ac4654f1134d46 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_fcf609016ad64dc6b9a062316ecda99e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3550cee474d359c40f64572e42a27081 = $(`<div id="html_3550cee474d359c40f64572e42a27081" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_fcf609016ad64dc6b9a062316ecda99e.setContent(html_3550cee474d359c40f64572e42a27081);
+        
+
+        marker_7937e98fb282922956ac4654f1134d46.bindPopup(popup_fcf609016ad64dc6b9a062316ecda99e)
+        ;
+
+        
+    
+    
+            var marker_25eed0c2e9c9a7a53631b762f53f8df8 = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3a8feab30e983dfbcdb885c88281081e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22f4ae7aff5aa3bf5a9a7f49540d61bf = $(`<div id="html_22f4ae7aff5aa3bf5a9a7f49540d61bf" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_3a8feab30e983dfbcdb885c88281081e.setContent(html_22f4ae7aff5aa3bf5a9a7f49540d61bf);
+        
+
+        marker_25eed0c2e9c9a7a53631b762f53f8df8.bindPopup(popup_3a8feab30e983dfbcdb885c88281081e)
+        ;
+
+        
+    
+    
+            var marker_605535888583f8863aa1ed47f8b80e48 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2992b831a6809d47204788e1f7232b18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bc9d4e5665cdcfc604430238b7947b8 = $(`<div id="html_7bc9d4e5665cdcfc604430238b7947b8" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_2992b831a6809d47204788e1f7232b18.setContent(html_7bc9d4e5665cdcfc604430238b7947b8);
+        
+
+        marker_605535888583f8863aa1ed47f8b80e48.bindPopup(popup_2992b831a6809d47204788e1f7232b18)
+        ;
+
+        
+    
+    
+            var marker_005dc4a2c1dc4e6850f6fa6e61db152e = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_41dcd273e724df290ec729ee1f4fa839 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75485129dcaf1e35269893bafed99b6e = $(`<div id="html_75485129dcaf1e35269893bafed99b6e" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_41dcd273e724df290ec729ee1f4fa839.setContent(html_75485129dcaf1e35269893bafed99b6e);
+        
+
+        marker_005dc4a2c1dc4e6850f6fa6e61db152e.bindPopup(popup_41dcd273e724df290ec729ee1f4fa839)
+        ;
+
+        
+    
+    
+            var marker_2b3a5ac24f607874a2c7c15ebd901174 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_50c75286ff5e1293a48663258ca478ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c552f6627041878eb3dd22b910fa467b = $(`<div id="html_c552f6627041878eb3dd22b910fa467b" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_50c75286ff5e1293a48663258ca478ad.setContent(html_c552f6627041878eb3dd22b910fa467b);
+        
+
+        marker_2b3a5ac24f607874a2c7c15ebd901174.bindPopup(popup_50c75286ff5e1293a48663258ca478ad)
+        ;
+
+        
+    
+    
+            var marker_12e9bb4d4a2a08d08b24ddbabe5efc86 = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1b6d8555d996785d4cccc32f86275c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f02a649559238946bee47d6b18a6caae = $(`<div id="html_f02a649559238946bee47d6b18a6caae" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_1b6d8555d996785d4cccc32f86275c22.setContent(html_f02a649559238946bee47d6b18a6caae);
+        
+
+        marker_12e9bb4d4a2a08d08b24ddbabe5efc86.bindPopup(popup_1b6d8555d996785d4cccc32f86275c22)
+        ;
+
+        
+    
+    
+            var marker_49d8773e5c9d08137de4f5fc87477540 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_50e61cb49bc94a3360b31f8b85f05324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46dccf6c4a02e5b0af6590c04dc4f30d = $(`<div id="html_46dccf6c4a02e5b0af6590c04dc4f30d" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_50e61cb49bc94a3360b31f8b85f05324.setContent(html_46dccf6c4a02e5b0af6590c04dc4f30d);
+        
+
+        marker_49d8773e5c9d08137de4f5fc87477540.bindPopup(popup_50e61cb49bc94a3360b31f8b85f05324)
+        ;
+
+        
+    
+    
+            var marker_e8d5f2c5008a689a6c6d5da62098f2fa = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7a232ce15f586f12f48d832e05898f4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bafd1a9b82a44fc24d06ebfe137d1691 = $(`<div id="html_bafd1a9b82a44fc24d06ebfe137d1691" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_7a232ce15f586f12f48d832e05898f4d.setContent(html_bafd1a9b82a44fc24d06ebfe137d1691);
+        
+
+        marker_e8d5f2c5008a689a6c6d5da62098f2fa.bindPopup(popup_7a232ce15f586f12f48d832e05898f4d)
+        ;
+
+        
+    
+    
+            var marker_bd1088c77e453166ed1a4ddddbc5613d = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_325be4d4084cf699702fd829269d652c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce1b1aca926144b5d2d2e17bf29166cc = $(`<div id="html_ce1b1aca926144b5d2d2e17bf29166cc" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_325be4d4084cf699702fd829269d652c.setContent(html_ce1b1aca926144b5d2d2e17bf29166cc);
+        
+
+        marker_bd1088c77e453166ed1a4ddddbc5613d.bindPopup(popup_325be4d4084cf699702fd829269d652c)
+        ;
+
+        
+    
+    
+            var marker_011deee8935e6fa1cec741cd2940dd3a = L.marker(
+                [45.516, -122.6839],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_92808d7251b6b523590e17a609e3f985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e05e243d96223a270b28e9a2ba5980ee = $(`<div id="html_e05e243d96223a270b28e9a2ba5980ee" style="width: 100.0%; height: 100.0%;">Portland Art Museum, Portland, USA</div>`)[0];
+            popup_92808d7251b6b523590e17a609e3f985.setContent(html_e05e243d96223a270b28e9a2ba5980ee);
+        
+
+        marker_011deee8935e6fa1cec741cd2940dd3a.bindPopup(popup_92808d7251b6b523590e17a609e3f985)
+        ;
+
+        
+    
+    
+            var marker_59e7616ac0ae49935ef1dd3d392ff002 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_38477daa6ee27fc12cb2906c95f9943f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8e987ed4d2a8b4475b0611c8627924a = $(`<div id="html_c8e987ed4d2a8b4475b0611c8627924a" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_38477daa6ee27fc12cb2906c95f9943f.setContent(html_c8e987ed4d2a8b4475b0611c8627924a);
+        
+
+        marker_59e7616ac0ae49935ef1dd3d392ff002.bindPopup(popup_38477daa6ee27fc12cb2906c95f9943f)
+        ;
+
+        
+    
+    
+            var marker_5eda12a768800fcd735341d90a4a33b6 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_93213d545ab28fc3b88b40a653d51de7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0806ec9bd41b95872d670fd9906e9df7 = $(`<div id="html_0806ec9bd41b95872d670fd9906e9df7" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_93213d545ab28fc3b88b40a653d51de7.setContent(html_0806ec9bd41b95872d670fd9906e9df7);
+        
+
+        marker_5eda12a768800fcd735341d90a4a33b6.bindPopup(popup_93213d545ab28fc3b88b40a653d51de7)
+        ;
+
+        
+    
+    
+            var marker_472b1695851ecd687dce998f10f166c5 = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7d0e86891496e7ec4750f1603c02979b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa08f66be0989322682ff93d0cd350c = $(`<div id="html_caa08f66be0989322682ff93d0cd350c" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_7d0e86891496e7ec4750f1603c02979b.setContent(html_caa08f66be0989322682ff93d0cd350c);
+        
+
+        marker_472b1695851ecd687dce998f10f166c5.bindPopup(popup_7d0e86891496e7ec4750f1603c02979b)
+        ;
+
+        
+    
+    
+            var marker_27fe648d0ad388d2b08b228243d17cca = L.marker(
+                [45.516, -122.6839],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_919551e32c18ae2c2b59a532d54d07fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0baaed7e24f54a71d3a205c9c0b7f6b2 = $(`<div id="html_0baaed7e24f54a71d3a205c9c0b7f6b2" style="width: 100.0%; height: 100.0%;">Portland Art Museum, Portland, USA</div>`)[0];
+            popup_919551e32c18ae2c2b59a532d54d07fb.setContent(html_0baaed7e24f54a71d3a205c9c0b7f6b2);
+        
+
+        marker_27fe648d0ad388d2b08b228243d17cca.bindPopup(popup_919551e32c18ae2c2b59a532d54d07fb)
+        ;
+
+        
+    
+    
+            var marker_ea1e51596f1cdc99393f31654a454539 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_025b9ec8c81d30b8334bab3f3c096681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdc77c0b9a29acd8c23fa031a3726514 = $(`<div id="html_fdc77c0b9a29acd8c23fa031a3726514" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_025b9ec8c81d30b8334bab3f3c096681.setContent(html_fdc77c0b9a29acd8c23fa031a3726514);
+        
+
+        marker_ea1e51596f1cdc99393f31654a454539.bindPopup(popup_025b9ec8c81d30b8334bab3f3c096681)
+        ;
+
+        
+    
+    
+            var marker_c7a0669830372377ce20406433ca3a51 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0e13370ce2f507cedb05e092e10dfc24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf7cb14a67ec7fef33bbcfcc201bbb1 = $(`<div id="html_baf7cb14a67ec7fef33bbcfcc201bbb1" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_0e13370ce2f507cedb05e092e10dfc24.setContent(html_baf7cb14a67ec7fef33bbcfcc201bbb1);
+        
+
+        marker_c7a0669830372377ce20406433ca3a51.bindPopup(popup_0e13370ce2f507cedb05e092e10dfc24)
+        ;
+
+        
+    
+    
+            var marker_7e12bcf22ed4b889dd53557ec219449d = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0fbe53d8783d462508b63afe1aa42cce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_555765517b0430f4b240df8d360fcce7 = $(`<div id="html_555765517b0430f4b240df8d360fcce7" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_0fbe53d8783d462508b63afe1aa42cce.setContent(html_555765517b0430f4b240df8d360fcce7);
+        
+
+        marker_7e12bcf22ed4b889dd53557ec219449d.bindPopup(popup_0fbe53d8783d462508b63afe1aa42cce)
+        ;
+
+        
+    
+    
+            var marker_8a4b71f00d43cb19a36bb438cca94377 = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_fa0cfc4b218aaa024b669c2ae673cd79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f81d4e15c9d4f97b4263b32342477ee = $(`<div id="html_6f81d4e15c9d4f97b4263b32342477ee" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_fa0cfc4b218aaa024b669c2ae673cd79.setContent(html_6f81d4e15c9d4f97b4263b32342477ee);
+        
+
+        marker_8a4b71f00d43cb19a36bb438cca94377.bindPopup(popup_fa0cfc4b218aaa024b669c2ae673cd79)
+        ;
+
+        
+    
+    
+            var marker_5d0f046ed29512d16b09bc1ce5ec3445 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_22821e20a5ce30599c3b89869374a20c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00aecde7b0b9b08e8c4f7011297fc0b5 = $(`<div id="html_00aecde7b0b9b08e8c4f7011297fc0b5" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_22821e20a5ce30599c3b89869374a20c.setContent(html_00aecde7b0b9b08e8c4f7011297fc0b5);
+        
+
+        marker_5d0f046ed29512d16b09bc1ce5ec3445.bindPopup(popup_22821e20a5ce30599c3b89869374a20c)
+        ;
+
+        
+    
+    
+            var marker_470cb82942215de065c375842abf941f = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_17c467c411d097a0e58a718aa9884250 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e9a1fd6e21c35a28b6493ca6db4849c = $(`<div id="html_8e9a1fd6e21c35a28b6493ca6db4849c" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_17c467c411d097a0e58a718aa9884250.setContent(html_8e9a1fd6e21c35a28b6493ca6db4849c);
+        
+
+        marker_470cb82942215de065c375842abf941f.bindPopup(popup_17c467c411d097a0e58a718aa9884250)
+        ;
+
+        
+    
+    
+            var marker_34c6bce52972b17897409785679165aa = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3f5efe26cb0209eeaa5a504deb3549ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a80508a75e4f4a60b0547bd5379c76 = $(`<div id="html_e6a80508a75e4f4a60b0547bd5379c76" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_3f5efe26cb0209eeaa5a504deb3549ae.setContent(html_e6a80508a75e4f4a60b0547bd5379c76);
+        
+
+        marker_34c6bce52972b17897409785679165aa.bindPopup(popup_3f5efe26cb0209eeaa5a504deb3549ae)
+        ;
+
+        
+    
+    
+            var marker_1f687226953b1a137e64e0c9df8dadcf = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f38508a8a73b9c719781d97933c10021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aa48e1797828584f986b1fba29b08c3 = $(`<div id="html_1aa48e1797828584f986b1fba29b08c3" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_f38508a8a73b9c719781d97933c10021.setContent(html_1aa48e1797828584f986b1fba29b08c3);
+        
+
+        marker_1f687226953b1a137e64e0c9df8dadcf.bindPopup(popup_f38508a8a73b9c719781d97933c10021)
+        ;
+
+        
+    
+    
+            var marker_5d9fff96702b7f671d47e71c944a2ac3 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_de703bd1bdc687a205f95cb6c582b474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b27778acc00cb9e655688c9d7ded9e3 = $(`<div id="html_2b27778acc00cb9e655688c9d7ded9e3" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_de703bd1bdc687a205f95cb6c582b474.setContent(html_2b27778acc00cb9e655688c9d7ded9e3);
+        
+
+        marker_5d9fff96702b7f671d47e71c944a2ac3.bindPopup(popup_de703bd1bdc687a205f95cb6c582b474)
+        ;
+
+        
+    
+    
+            var marker_0482bd2b3a1969299e8d8c3511c72351 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b290db321c144f7e31f87952474d8161 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42d890c45f1f23c1a868636428f0cd7d = $(`<div id="html_42d890c45f1f23c1a868636428f0cd7d" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_b290db321c144f7e31f87952474d8161.setContent(html_42d890c45f1f23c1a868636428f0cd7d);
+        
+
+        marker_0482bd2b3a1969299e8d8c3511c72351.bindPopup(popup_b290db321c144f7e31f87952474d8161)
+        ;
+
+        
+    
+    
+            var marker_0b910882fec4596ff66fc51d406e89da = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_529dfd65f5244321f94d5236cb5ecac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b82ec1f3458bbdb14b62b27e7f8821a7 = $(`<div id="html_b82ec1f3458bbdb14b62b27e7f8821a7" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_529dfd65f5244321f94d5236cb5ecac1.setContent(html_b82ec1f3458bbdb14b62b27e7f8821a7);
+        
+
+        marker_0b910882fec4596ff66fc51d406e89da.bindPopup(popup_529dfd65f5244321f94d5236cb5ecac1)
+        ;
+
+        
+    
+    
+            var marker_d646b99e449f4dc27c4f634014ab4434 = L.marker(
+                [45.516, -122.6839],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2798f3d6570cd49ee478702d9c273e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5992b55e11d7784505797e32bb25bae0 = $(`<div id="html_5992b55e11d7784505797e32bb25bae0" style="width: 100.0%; height: 100.0%;">Portland Art Museum, Portland, USA</div>`)[0];
+            popup_2798f3d6570cd49ee478702d9c273e1c.setContent(html_5992b55e11d7784505797e32bb25bae0);
+        
+
+        marker_d646b99e449f4dc27c4f634014ab4434.bindPopup(popup_2798f3d6570cd49ee478702d9c273e1c)
+        ;
+
+        
+    
+    
+            var marker_4e42d62550def3d9162b0e1175e003fd = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_af5e339777e07bcd6a01440aea4ba9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_229d414e09761349f5780dce25a70cef = $(`<div id="html_229d414e09761349f5780dce25a70cef" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_af5e339777e07bcd6a01440aea4ba9f8.setContent(html_229d414e09761349f5780dce25a70cef);
+        
+
+        marker_4e42d62550def3d9162b0e1175e003fd.bindPopup(popup_af5e339777e07bcd6a01440aea4ba9f8)
+        ;
+
+        
+    
+    
+            var marker_949b04868da02fcc582f6c332686fceb = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c5dde12424f876b0a1909d4e44eb3b39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5bb53d84239b2f01446e5114c8cd9d5 = $(`<div id="html_c5bb53d84239b2f01446e5114c8cd9d5" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_c5dde12424f876b0a1909d4e44eb3b39.setContent(html_c5bb53d84239b2f01446e5114c8cd9d5);
+        
+
+        marker_949b04868da02fcc582f6c332686fceb.bindPopup(popup_c5dde12424f876b0a1909d4e44eb3b39)
+        ;
+
+        
+    
+    
+            var marker_057ab9e8448ddc269ceb0ccdf039c5c3 = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_550e137885dc5a18d77af8654b9a78a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9c83d7fa1299afda95e00103357c564 = $(`<div id="html_a9c83d7fa1299afda95e00103357c564" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_550e137885dc5a18d77af8654b9a78a4.setContent(html_a9c83d7fa1299afda95e00103357c564);
+        
+
+        marker_057ab9e8448ddc269ceb0ccdf039c5c3.bindPopup(popup_550e137885dc5a18d77af8654b9a78a4)
+        ;
+
+        
+    
+    
+            var marker_323a83408d8a9600c4a9af608a1ac589 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c6839eadddf8bed1de625f7d7bd747e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19b7bf9f4686ae755056da7b87ad0666 = $(`<div id="html_19b7bf9f4686ae755056da7b87ad0666" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_c6839eadddf8bed1de625f7d7bd747e7.setContent(html_19b7bf9f4686ae755056da7b87ad0666);
+        
+
+        marker_323a83408d8a9600c4a9af608a1ac589.bindPopup(popup_c6839eadddf8bed1de625f7d7bd747e7)
+        ;
+
+        
+    
+    
+            var marker_a917b65c2cfb26f8b31cf43ce1ee1cd8 = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c1aeac5fb534b695ebd61f4b065867d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d9bedceccde48344236323a5a0de67b = $(`<div id="html_4d9bedceccde48344236323a5a0de67b" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_c1aeac5fb534b695ebd61f4b065867d1.setContent(html_4d9bedceccde48344236323a5a0de67b);
+        
+
+        marker_a917b65c2cfb26f8b31cf43ce1ee1cd8.bindPopup(popup_c1aeac5fb534b695ebd61f4b065867d1)
+        ;
+
+        
+    
+    
+            var marker_3fb883bacf899bd89fb1b9c775925724 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7d69972a622f457badaee50e968ae0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aac69fd44297d502d696885afcea664f = $(`<div id="html_aac69fd44297d502d696885afcea664f" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_7d69972a622f457badaee50e968ae0e1.setContent(html_aac69fd44297d502d696885afcea664f);
+        
+
+        marker_3fb883bacf899bd89fb1b9c775925724.bindPopup(popup_7d69972a622f457badaee50e968ae0e1)
+        ;
+
+        
+    
+    
+            var marker_25a7c000a5252529c9311fe069f43505 = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d39a3eeb3a46c2f04a0f9336db28e46b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d89e1068407259d9a0722dd8e44b92a6 = $(`<div id="html_d89e1068407259d9a0722dd8e44b92a6" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_d39a3eeb3a46c2f04a0f9336db28e46b.setContent(html_d89e1068407259d9a0722dd8e44b92a6);
+        
+
+        marker_25a7c000a5252529c9311fe069f43505.bindPopup(popup_d39a3eeb3a46c2f04a0f9336db28e46b)
+        ;
+
+        
+    
+    
+            var marker_99e00e79b8496bee8381846c3b559407 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b94a1680d855440f8396bdff5e5f5c74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d53fdffdb0c9e05682d0be4c4371deb = $(`<div id="html_2d53fdffdb0c9e05682d0be4c4371deb" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_b94a1680d855440f8396bdff5e5f5c74.setContent(html_2d53fdffdb0c9e05682d0be4c4371deb);
+        
+
+        marker_99e00e79b8496bee8381846c3b559407.bindPopup(popup_b94a1680d855440f8396bdff5e5f5c74)
+        ;
+
+        
+    
+    
+            var marker_781b5e6150f370e579f8c6276d058799 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_fd3ab80d6f4cac0e6f64c7fa87c63298 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a774a3b04085999f659d081819c937b = $(`<div id="html_6a774a3b04085999f659d081819c937b" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_fd3ab80d6f4cac0e6f64c7fa87c63298.setContent(html_6a774a3b04085999f659d081819c937b);
+        
+
+        marker_781b5e6150f370e579f8c6276d058799.bindPopup(popup_fd3ab80d6f4cac0e6f64c7fa87c63298)
+        ;
+
+        
+    
+    
+            var marker_4660e9d32e3a5b7bdb4a75e87c70b654 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_889755a61e875c814952668a6482cbd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a406cc44224b930d797ab0f87f06dff = $(`<div id="html_4a406cc44224b930d797ab0f87f06dff" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_889755a61e875c814952668a6482cbd1.setContent(html_4a406cc44224b930d797ab0f87f06dff);
+        
+
+        marker_4660e9d32e3a5b7bdb4a75e87c70b654.bindPopup(popup_889755a61e875c814952668a6482cbd1)
+        ;
+
+        
+    
+    
+            var marker_9c1adea397a6d69977da34c6e0f266b9 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1bf383bdf004b6d0459b2c8c1a85fb2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4c50a36b8fdc17b93eb969dd5726632 = $(`<div id="html_d4c50a36b8fdc17b93eb969dd5726632" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_1bf383bdf004b6d0459b2c8c1a85fb2e.setContent(html_d4c50a36b8fdc17b93eb969dd5726632);
+        
+
+        marker_9c1adea397a6d69977da34c6e0f266b9.bindPopup(popup_1bf383bdf004b6d0459b2c8c1a85fb2e)
+        ;
+
+        
+    
+    
+            var marker_92799994031307d59484005b5a484512 = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_55831c67f863e5d446a7db69d4ebd4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f55fb2aa7869f24624a50f071a89f557 = $(`<div id="html_f55fb2aa7869f24624a50f071a89f557" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_55831c67f863e5d446a7db69d4ebd4f2.setContent(html_f55fb2aa7869f24624a50f071a89f557);
+        
+
+        marker_92799994031307d59484005b5a484512.bindPopup(popup_55831c67f863e5d446a7db69d4ebd4f2)
+        ;
+
+        
+    
+    
+            var marker_471d1f83b72469a307b3e15650782cfb = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3b9f371ae972a16986ad576f3272748b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49caf23f60970553afd26c29dbea9a25 = $(`<div id="html_49caf23f60970553afd26c29dbea9a25" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_3b9f371ae972a16986ad576f3272748b.setContent(html_49caf23f60970553afd26c29dbea9a25);
+        
+
+        marker_471d1f83b72469a307b3e15650782cfb.bindPopup(popup_3b9f371ae972a16986ad576f3272748b)
+        ;
+
+        
+    
+    
+            var marker_e022dc79fe8e661cf5e93a882b00b9b9 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_eea2976892e4ccc42cdf541b8af2696d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dac111feca501d3d747aabb153ab47e2 = $(`<div id="html_dac111feca501d3d747aabb153ab47e2" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_eea2976892e4ccc42cdf541b8af2696d.setContent(html_dac111feca501d3d747aabb153ab47e2);
+        
+
+        marker_e022dc79fe8e661cf5e93a882b00b9b9.bindPopup(popup_eea2976892e4ccc42cdf541b8af2696d)
+        ;
+
+        
+    
+    
+            var marker_7e20846d31955f9eba8c75401dfc258f = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b23a2798a449c521e86d742435ddc9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff73c0a270d10cfb28bf399e5166cd8 = $(`<div id="html_6ff73c0a270d10cfb28bf399e5166cd8" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_b23a2798a449c521e86d742435ddc9e7.setContent(html_6ff73c0a270d10cfb28bf399e5166cd8);
+        
+
+        marker_7e20846d31955f9eba8c75401dfc258f.bindPopup(popup_b23a2798a449c521e86d742435ddc9e7)
+        ;
+
+        
+    
+    
+            var marker_c416b8e7193be9933e2a3bb230cdc14e = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_128e154ca74a209db37e5305122741cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82accaf7c4d64566b3d4dae3cb2bc1e3 = $(`<div id="html_82accaf7c4d64566b3d4dae3cb2bc1e3" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_128e154ca74a209db37e5305122741cd.setContent(html_82accaf7c4d64566b3d4dae3cb2bc1e3);
+        
+
+        marker_c416b8e7193be9933e2a3bb230cdc14e.bindPopup(popup_128e154ca74a209db37e5305122741cd)
+        ;
+
+        
+    
+    
+            var marker_4aa9018c4961374f35d4956e2c358aaf = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_583fc5ed78ad2a5f311c61790d5eed88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f4fa53674364281f46c29fab66b9df = $(`<div id="html_b4f4fa53674364281f46c29fab66b9df" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_583fc5ed78ad2a5f311c61790d5eed88.setContent(html_b4f4fa53674364281f46c29fab66b9df);
+        
+
+        marker_4aa9018c4961374f35d4956e2c358aaf.bindPopup(popup_583fc5ed78ad2a5f311c61790d5eed88)
+        ;
+
+        
+    
+    
+            var marker_6afdb0c0b72f4c1f2b68e0ce5138230a = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_988ac77a10f85346855c667100467e2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1eb750ab6f4bc01268d8f96ca717e84 = $(`<div id="html_a1eb750ab6f4bc01268d8f96ca717e84" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_988ac77a10f85346855c667100467e2b.setContent(html_a1eb750ab6f4bc01268d8f96ca717e84);
+        
+
+        marker_6afdb0c0b72f4c1f2b68e0ce5138230a.bindPopup(popup_988ac77a10f85346855c667100467e2b)
+        ;
+
+        
+    
+    
+            var marker_8eb219f14003606d652bea206745aa03 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e89a7411c8c8540d077eaa1adc83ec5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b52d9477abacf1cbb8c1bde6592604bb = $(`<div id="html_b52d9477abacf1cbb8c1bde6592604bb" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_e89a7411c8c8540d077eaa1adc83ec5a.setContent(html_b52d9477abacf1cbb8c1bde6592604bb);
+        
+
+        marker_8eb219f14003606d652bea206745aa03.bindPopup(popup_e89a7411c8c8540d077eaa1adc83ec5a)
+        ;
+
+        
+    
+    
+            var marker_38a8a7d63c5dbab6fb0d889dcc63e9a5 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0f6f7c096d206aa331fc190566314d01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31721fb0e1d1c359ea439db906e46204 = $(`<div id="html_31721fb0e1d1c359ea439db906e46204" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_0f6f7c096d206aa331fc190566314d01.setContent(html_31721fb0e1d1c359ea439db906e46204);
+        
+
+        marker_38a8a7d63c5dbab6fb0d889dcc63e9a5.bindPopup(popup_0f6f7c096d206aa331fc190566314d01)
+        ;
+
+        
+    
+    
+            var marker_a71bb69bf72b3fb28607a18b8854596c = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a48338b9fd9c34c3b6b17d932a96078e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36ab6db99eb90dbbe7410071276ce7b8 = $(`<div id="html_36ab6db99eb90dbbe7410071276ce7b8" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_a48338b9fd9c34c3b6b17d932a96078e.setContent(html_36ab6db99eb90dbbe7410071276ce7b8);
+        
+
+        marker_a71bb69bf72b3fb28607a18b8854596c.bindPopup(popup_a48338b9fd9c34c3b6b17d932a96078e)
+        ;
+
+        
+    
+    
+            var marker_97aeeffa8ee2e9905faad36090cd855d = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4d6266e5aff27bb058fbd35dc6d249eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f8a1ee7c1266101fec3042a9b8a9b16 = $(`<div id="html_0f8a1ee7c1266101fec3042a9b8a9b16" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_4d6266e5aff27bb058fbd35dc6d249eb.setContent(html_0f8a1ee7c1266101fec3042a9b8a9b16);
+        
+
+        marker_97aeeffa8ee2e9905faad36090cd855d.bindPopup(popup_4d6266e5aff27bb058fbd35dc6d249eb)
+        ;
+
+        
+    
+    
+            var marker_1e0a6df4541cb262e0cb14c5c9b947f3 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_95d44d52c4c88b1be14084932c44c62e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9092ecb9793132b8719bfc16e1256411 = $(`<div id="html_9092ecb9793132b8719bfc16e1256411" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_95d44d52c4c88b1be14084932c44c62e.setContent(html_9092ecb9793132b8719bfc16e1256411);
+        
+
+        marker_1e0a6df4541cb262e0cb14c5c9b947f3.bindPopup(popup_95d44d52c4c88b1be14084932c44c62e)
+        ;
+
+        
+    
+    
+            var marker_e7e0524dd3b13b62f0f7f79a3a7527c8 = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d0bb09de3f405ba49f5a6a4e66e1f634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_300b9db3d9d5e4372d5d8c7c16066a0d = $(`<div id="html_300b9db3d9d5e4372d5d8c7c16066a0d" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_d0bb09de3f405ba49f5a6a4e66e1f634.setContent(html_300b9db3d9d5e4372d5d8c7c16066a0d);
+        
+
+        marker_e7e0524dd3b13b62f0f7f79a3a7527c8.bindPopup(popup_d0bb09de3f405ba49f5a6a4e66e1f634)
+        ;
+
+        
+    
+    
+            var marker_043fab7a4b0d211d8f8cb30d834da353 = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_66c92d01f17513422eb908224981b04a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69151573a1bcf6086b07dbf4966d2441 = $(`<div id="html_69151573a1bcf6086b07dbf4966d2441" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_66c92d01f17513422eb908224981b04a.setContent(html_69151573a1bcf6086b07dbf4966d2441);
+        
+
+        marker_043fab7a4b0d211d8f8cb30d834da353.bindPopup(popup_66c92d01f17513422eb908224981b04a)
+        ;
+
+        
+    
+    
+            var marker_d2ce8dd2f185e9f19e1fe387d47e6c10 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2a631c334db400f22590a6815da7a0b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b5e42146ba80ef81c161c7bb9a71829 = $(`<div id="html_1b5e42146ba80ef81c161c7bb9a71829" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_2a631c334db400f22590a6815da7a0b9.setContent(html_1b5e42146ba80ef81c161c7bb9a71829);
+        
+
+        marker_d2ce8dd2f185e9f19e1fe387d47e6c10.bindPopup(popup_2a631c334db400f22590a6815da7a0b9)
+        ;
+
+        
+    
+    
+            var marker_d099ac427d6ef249beb9c162cd190ece = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8d60c42c768bb8b42143dfd69c4d0a5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea45ab6d4845434baecb7dd570c4b07 = $(`<div id="html_0ea45ab6d4845434baecb7dd570c4b07" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_8d60c42c768bb8b42143dfd69c4d0a5e.setContent(html_0ea45ab6d4845434baecb7dd570c4b07);
+        
+
+        marker_d099ac427d6ef249beb9c162cd190ece.bindPopup(popup_8d60c42c768bb8b42143dfd69c4d0a5e)
+        ;
+
+        
+    
+    
+            var marker_2fc5b9e968ed20ca6f7dd1329f1bca08 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d13998852093abf15d4fcc2ef959d768 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74cd8d0a636a2259addc18c18ab4a1fa = $(`<div id="html_74cd8d0a636a2259addc18c18ab4a1fa" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_d13998852093abf15d4fcc2ef959d768.setContent(html_74cd8d0a636a2259addc18c18ab4a1fa);
+        
+
+        marker_2fc5b9e968ed20ca6f7dd1329f1bca08.bindPopup(popup_d13998852093abf15d4fcc2ef959d768)
+        ;
+
+        
+    
+    
+            var marker_23a3b7b2f87b7502bd324c1c12ed4cfa = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_59103a99f2ed26a3dc912a41a2b5daaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96497a063438c770ac75ca701f314b19 = $(`<div id="html_96497a063438c770ac75ca701f314b19" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_59103a99f2ed26a3dc912a41a2b5daaa.setContent(html_96497a063438c770ac75ca701f314b19);
+        
+
+        marker_23a3b7b2f87b7502bd324c1c12ed4cfa.bindPopup(popup_59103a99f2ed26a3dc912a41a2b5daaa)
+        ;
+
+        
+    
+    
+            var marker_b61cc5f66be2a4cb4068ba5ad92815c8 = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c49ff84d44df41aad37b6253101dd9ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8484534dc801d6bcaed83fb454e19e6 = $(`<div id="html_a8484534dc801d6bcaed83fb454e19e6" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_c49ff84d44df41aad37b6253101dd9ad.setContent(html_a8484534dc801d6bcaed83fb454e19e6);
+        
+
+        marker_b61cc5f66be2a4cb4068ba5ad92815c8.bindPopup(popup_c49ff84d44df41aad37b6253101dd9ad)
+        ;
+
+        
+    
+    
+            var marker_7df1831827a7616cc93af733ca9f9b75 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5e6cdd25e29de960cfa5da9c2562a4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ac9a0873b87875664a3f56506d457f = $(`<div id="html_62ac9a0873b87875664a3f56506d457f" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_5e6cdd25e29de960cfa5da9c2562a4f2.setContent(html_62ac9a0873b87875664a3f56506d457f);
+        
+
+        marker_7df1831827a7616cc93af733ca9f9b75.bindPopup(popup_5e6cdd25e29de960cfa5da9c2562a4f2)
+        ;
+
+        
+    
+    
+            var marker_26a6150b2688de839a10c825d63cfbd2 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a7ba1226abbebce331d7b3464ae9d69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b818941507e110a7735b139c9896b2ff = $(`<div id="html_b818941507e110a7735b139c9896b2ff" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_a7ba1226abbebce331d7b3464ae9d69f.setContent(html_b818941507e110a7735b139c9896b2ff);
+        
+
+        marker_26a6150b2688de839a10c825d63cfbd2.bindPopup(popup_a7ba1226abbebce331d7b3464ae9d69f)
+        ;
+
+        
+    
+    
+            var marker_477bd8b96f34a8fc723a4dad97f3bc66 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_32a31a711292475e45ff1cf816e71d59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d140bc1aa1fe6e03aded50c19cc3d574 = $(`<div id="html_d140bc1aa1fe6e03aded50c19cc3d574" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_32a31a711292475e45ff1cf816e71d59.setContent(html_d140bc1aa1fe6e03aded50c19cc3d574);
+        
+
+        marker_477bd8b96f34a8fc723a4dad97f3bc66.bindPopup(popup_32a31a711292475e45ff1cf816e71d59)
+        ;
+
+        
+    
+    
+            var marker_9fed89e966505c95f1f23df5d358350d = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0cc67a1119f4821eb4ad9d9d976164fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_687a56d825cf4e9713477cbcdb9950b6 = $(`<div id="html_687a56d825cf4e9713477cbcdb9950b6" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_0cc67a1119f4821eb4ad9d9d976164fd.setContent(html_687a56d825cf4e9713477cbcdb9950b6);
+        
+
+        marker_9fed89e966505c95f1f23df5d358350d.bindPopup(popup_0cc67a1119f4821eb4ad9d9d976164fd)
+        ;
+
+        
+    
+    
+            var marker_51e70aa5adabe550a67c0da2041ecce2 = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5e1eedf543c7f66497e6d09f2f50d448 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f50df8913b7abb87518df1c355acf68f = $(`<div id="html_f50df8913b7abb87518df1c355acf68f" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_5e1eedf543c7f66497e6d09f2f50d448.setContent(html_f50df8913b7abb87518df1c355acf68f);
+        
+
+        marker_51e70aa5adabe550a67c0da2041ecce2.bindPopup(popup_5e1eedf543c7f66497e6d09f2f50d448)
+        ;
+
+        
+    
+    
+            var marker_3f4a7e7256114da050248ba8cb6ae408 = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_57c746dc809a98efe37531228a0d1bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3d3f1aeca58d301893edd9c4ed6547b = $(`<div id="html_b3d3f1aeca58d301893edd9c4ed6547b" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_57c746dc809a98efe37531228a0d1bc1.setContent(html_b3d3f1aeca58d301893edd9c4ed6547b);
+        
+
+        marker_3f4a7e7256114da050248ba8cb6ae408.bindPopup(popup_57c746dc809a98efe37531228a0d1bc1)
+        ;
+
+        
+    
+    
+            var marker_127725eb7c2c7b7523de6ed5045fea5c = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_aadbf5192f429e40d7c5fe3a66940976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80d22cd07e9088bc7b6a12a07e27f82f = $(`<div id="html_80d22cd07e9088bc7b6a12a07e27f82f" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_aadbf5192f429e40d7c5fe3a66940976.setContent(html_80d22cd07e9088bc7b6a12a07e27f82f);
+        
+
+        marker_127725eb7c2c7b7523de6ed5045fea5c.bindPopup(popup_aadbf5192f429e40d7c5fe3a66940976)
+        ;
+
+        
+    
+    
+            var marker_49bb8f0d93adaf3ae6a5c1082d98078c = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_97079cccbfb91bf780f778fb12af13a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c25bb10aa8d347b70c69a7599cd04c7 = $(`<div id="html_3c25bb10aa8d347b70c69a7599cd04c7" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_97079cccbfb91bf780f778fb12af13a6.setContent(html_3c25bb10aa8d347b70c69a7599cd04c7);
+        
+
+        marker_49bb8f0d93adaf3ae6a5c1082d98078c.bindPopup(popup_97079cccbfb91bf780f778fb12af13a6)
+        ;
+
+        
+    
+    
+            var marker_891b203b4418092e40c2ee31b4d11c0e = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_6bd99575148f59ff48f19c3622388dde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6c4ad438e534b2885cf6ca1bd2a14e8 = $(`<div id="html_a6c4ad438e534b2885cf6ca1bd2a14e8" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_6bd99575148f59ff48f19c3622388dde.setContent(html_a6c4ad438e534b2885cf6ca1bd2a14e8);
+        
+
+        marker_891b203b4418092e40c2ee31b4d11c0e.bindPopup(popup_6bd99575148f59ff48f19c3622388dde)
+        ;
+
+        
+    
+    
+            var marker_5c14709201b08bc3cbb4591c1223b591 = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1dfe482f633a22bacc2577317bf45ded = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8384cc1d6a46ed159f2f9a524d84cfe2 = $(`<div id="html_8384cc1d6a46ed159f2f9a524d84cfe2" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_1dfe482f633a22bacc2577317bf45ded.setContent(html_8384cc1d6a46ed159f2f9a524d84cfe2);
+        
+
+        marker_5c14709201b08bc3cbb4591c1223b591.bindPopup(popup_1dfe482f633a22bacc2577317bf45ded)
+        ;
+
+        
+    
+    
+            var marker_932ec79a3675398d321df9a324a83531 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8428181069f2df7d3fc2176e4911eec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6527adb1842b8df183e47676314c22bb = $(`<div id="html_6527adb1842b8df183e47676314c22bb" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_8428181069f2df7d3fc2176e4911eec3.setContent(html_6527adb1842b8df183e47676314c22bb);
+        
+
+        marker_932ec79a3675398d321df9a324a83531.bindPopup(popup_8428181069f2df7d3fc2176e4911eec3)
+        ;
+
+        
+    
+    
+            var marker_43938bfdfa48dd5da93a5a84ef923d21 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8a8e4803075691be7d8ce7a6decf29e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_050108ff8515bb3de56b29a2da009ea8 = $(`<div id="html_050108ff8515bb3de56b29a2da009ea8" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_8a8e4803075691be7d8ce7a6decf29e2.setContent(html_050108ff8515bb3de56b29a2da009ea8);
+        
+
+        marker_43938bfdfa48dd5da93a5a84ef923d21.bindPopup(popup_8a8e4803075691be7d8ce7a6decf29e2)
+        ;
+
+        
+    
+    
+            var marker_f45789d8db3c8a713d69ed46bcd727c0 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_efd051b0aebaf0955c98c1ae65119ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b9e5b51e2094895f07f0ddcf6204c9b = $(`<div id="html_9b9e5b51e2094895f07f0ddcf6204c9b" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_efd051b0aebaf0955c98c1ae65119ee5.setContent(html_9b9e5b51e2094895f07f0ddcf6204c9b);
+        
+
+        marker_f45789d8db3c8a713d69ed46bcd727c0.bindPopup(popup_efd051b0aebaf0955c98c1ae65119ee5)
+        ;
+
+        
+    
+    
+            var marker_62f30c8fc772c3f47400d516e33ab52d = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_cf10e3a87e24814b954f04e0f119245c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d73239b74e29f1a0e932b7d9f9a9df = $(`<div id="html_67d73239b74e29f1a0e932b7d9f9a9df" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_cf10e3a87e24814b954f04e0f119245c.setContent(html_67d73239b74e29f1a0e932b7d9f9a9df);
+        
+
+        marker_62f30c8fc772c3f47400d516e33ab52d.bindPopup(popup_cf10e3a87e24814b954f04e0f119245c)
+        ;
+
+        
+    
+    
+            var marker_a0e097981c0fd51ed0b26efd7dd3395c = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8212b907981f6158964c8bf81e8d571b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59efa9a32cc4c5b18c969e1687361149 = $(`<div id="html_59efa9a32cc4c5b18c969e1687361149" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_8212b907981f6158964c8bf81e8d571b.setContent(html_59efa9a32cc4c5b18c969e1687361149);
+        
+
+        marker_a0e097981c0fd51ed0b26efd7dd3395c.bindPopup(popup_8212b907981f6158964c8bf81e8d571b)
+        ;
+
+        
+    
+    
+            var marker_403747213f2be9a5b7555c88be5c45bb = L.marker(
+                [47.5596, 7.5886],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_325df590ff7c38cab0d61d4faec55354 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf9a9945222364333b85a9e832b60029 = $(`<div id="html_bf9a9945222364333b85a9e832b60029" style="width: 100.0%; height: 100.0%;">Kunstmuseum Basel, Basel, Switzerland</div>`)[0];
+            popup_325df590ff7c38cab0d61d4faec55354.setContent(html_bf9a9945222364333b85a9e832b60029);
+        
+
+        marker_403747213f2be9a5b7555c88be5c45bb.bindPopup(popup_325df590ff7c38cab0d61d4faec55354)
+        ;
+
+        
+    
+    
+            var marker_a18dadd027e29881f0da3f6dad96ad31 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_aea58a3dbb82bd265d56ffb955d79328 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7389108cfdba237a12ce2456273c8fa = $(`<div id="html_c7389108cfdba237a12ce2456273c8fa" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_aea58a3dbb82bd265d56ffb955d79328.setContent(html_c7389108cfdba237a12ce2456273c8fa);
+        
+
+        marker_a18dadd027e29881f0da3f6dad96ad31.bindPopup(popup_aea58a3dbb82bd265d56ffb955d79328)
+        ;
+
+        
+    
+    
+            var marker_f61f3a06a788436f8a755858251b1076 = L.marker(
+                [41.5089, -81.6115],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_896e831e50934563c787b0de39ad40df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a30fdc47afd971fcfa7f53abe84fc4b5 = $(`<div id="html_a30fdc47afd971fcfa7f53abe84fc4b5" style="width: 100.0%; height: 100.0%;">Cleveland Museum of Art, Cleveland, USA</div>`)[0];
+            popup_896e831e50934563c787b0de39ad40df.setContent(html_a30fdc47afd971fcfa7f53abe84fc4b5);
+        
+
+        marker_f61f3a06a788436f8a755858251b1076.bindPopup(popup_896e831e50934563c787b0de39ad40df)
+        ;
+
+        
+    
+    
+            var marker_99c5435b328b48a28f501ed9c4ffb370 = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_917e8cfdaec859ea5c58179f7dd3fd67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c90a7c458017c5386e2c3ffeef82d3d4 = $(`<div id="html_c90a7c458017c5386e2c3ffeef82d3d4" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_917e8cfdaec859ea5c58179f7dd3fd67.setContent(html_c90a7c458017c5386e2c3ffeef82d3d4);
+        
+
+        marker_99c5435b328b48a28f501ed9c4ffb370.bindPopup(popup_917e8cfdaec859ea5c58179f7dd3fd67)
+        ;
+
+        
+    
+    
+            var marker_265107d4f00c14a43f2172f1d8c70611 = L.marker(
+                [18.0111, -66.6141],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c05a5473807f6386451495933f11c7ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18111a4f91eeb437caf2188df24329ef = $(`<div id="html_18111a4f91eeb437caf2188df24329ef" style="width: 100.0%; height: 100.0%;">Museo de Arte de Ponce, Ponce, Puerto Rico</div>`)[0];
+            popup_c05a5473807f6386451495933f11c7ee.setContent(html_18111a4f91eeb437caf2188df24329ef);
+        
+
+        marker_265107d4f00c14a43f2172f1d8c70611.bindPopup(popup_c05a5473807f6386451495933f11c7ee)
+        ;
+
+        
+    
+    
+            var marker_38be4aff9d9c5b075577182d3e67c75f = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_395d7b7a42e288c50f0fabc538876d39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d08055db7db34876c4456ee76f931f8 = $(`<div id="html_9d08055db7db34876c4456ee76f931f8" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_395d7b7a42e288c50f0fabc538876d39.setContent(html_9d08055db7db34876c4456ee76f931f8);
+        
+
+        marker_38be4aff9d9c5b075577182d3e67c75f.bindPopup(popup_395d7b7a42e288c50f0fabc538876d39)
+        ;
+
+        
+    
+    
+            var marker_7caa6b4a765231682bd856be2c1135d8 = L.marker(
+                [45.1931, 5.7265],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_927edba603355305c2522efbe0f10715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c4252f93f9b17a46a270f610b9ae9ad = $(`<div id="html_4c4252f93f9b17a46a270f610b9ae9ad" style="width: 100.0%; height: 100.0%;">Musée de Grenoble, Grenoble, France</div>`)[0];
+            popup_927edba603355305c2522efbe0f10715.setContent(html_4c4252f93f9b17a46a270f610b9ae9ad);
+        
+
+        marker_7caa6b4a765231682bd856be2c1135d8.bindPopup(popup_927edba603355305c2522efbe0f10715)
+        ;
+
+        
+    
+    
+            var marker_955e8822e71354767927e43e419ae3f4 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_a113ea03ddaa6b5da24df79ccadb7dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_964b4b1acf25042df8389b73fc7e8631 = $(`<div id="html_964b4b1acf25042df8389b73fc7e8631" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_a113ea03ddaa6b5da24df79ccadb7dad.setContent(html_964b4b1acf25042df8389b73fc7e8631);
+        
+
+        marker_955e8822e71354767927e43e419ae3f4.bindPopup(popup_a113ea03ddaa6b5da24df79ccadb7dad)
+        ;
+
+        
+    
+    
+            var marker_c8b3f2da7649bb9bdf88a1c052791d77 = L.marker(
+                [45.1931, 5.7265],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_40b330f516c303eafa45fd733a0b541e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89aceb7357cb7a719a2c4d8cd4868deb = $(`<div id="html_89aceb7357cb7a719a2c4d8cd4868deb" style="width: 100.0%; height: 100.0%;">Musée de Grenoble, Grenoble, France</div>`)[0];
+            popup_40b330f516c303eafa45fd733a0b541e.setContent(html_89aceb7357cb7a719a2c4d8cd4868deb);
+        
+
+        marker_c8b3f2da7649bb9bdf88a1c052791d77.bindPopup(popup_40b330f516c303eafa45fd733a0b541e)
+        ;
+
+        
+    
+    
+            var marker_668a62f7faa5312579145f874af5d49b = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_aa3dca47327665f17a3f09d5185e3a69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d74b8d3e88db9a3323890792cd5737 = $(`<div id="html_21d74b8d3e88db9a3323890792cd5737" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_aa3dca47327665f17a3f09d5185e3a69.setContent(html_21d74b8d3e88db9a3323890792cd5737);
+        
+
+        marker_668a62f7faa5312579145f874af5d49b.bindPopup(popup_aa3dca47327665f17a3f09d5185e3a69)
+        ;
+
+        
+    
+    
+            var marker_1f6a09b09b200cd52c5e6e15855a1e5f = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e2c85ef60351d89889024aabd5f55c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2f0bbaa244bea50c2a5a403271fa3d6 = $(`<div id="html_d2f0bbaa244bea50c2a5a403271fa3d6" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_e2c85ef60351d89889024aabd5f55c69.setContent(html_d2f0bbaa244bea50c2a5a403271fa3d6);
+        
+
+        marker_1f6a09b09b200cd52c5e6e15855a1e5f.bindPopup(popup_e2c85ef60351d89889024aabd5f55c69)
+        ;
+
+        
+    
+    
+            var marker_b3ea07f08c1f69c4050fa729eef063bf = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9123b2811ff2ded66d5d049ec7b9b442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_336a93c0931a5dd15d4d6fbc13515679 = $(`<div id="html_336a93c0931a5dd15d4d6fbc13515679" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_9123b2811ff2ded66d5d049ec7b9b442.setContent(html_336a93c0931a5dd15d4d6fbc13515679);
+        
+
+        marker_b3ea07f08c1f69c4050fa729eef063bf.bindPopup(popup_9123b2811ff2ded66d5d049ec7b9b442)
+        ;
+
+        
+    
+    
+            var marker_ba5588f4fd30bd78052a8fad2be3aa31 = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_191edc2ee5947664fbcbe8ff54179cc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e86b934d177f428982290b71500f78a5 = $(`<div id="html_e86b934d177f428982290b71500f78a5" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_191edc2ee5947664fbcbe8ff54179cc9.setContent(html_e86b934d177f428982290b71500f78a5);
+        
+
+        marker_ba5588f4fd30bd78052a8fad2be3aa31.bindPopup(popup_191edc2ee5947664fbcbe8ff54179cc9)
+        ;
+
+        
+    
+    
+            var marker_28d4eab37f8b254c5568250e13d96776 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_148b402b14bf3d9046a3ac03b204bbc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b9d1a70d860f99d377c9459ab229b5 = $(`<div id="html_04b9d1a70d860f99d377c9459ab229b5" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_148b402b14bf3d9046a3ac03b204bbc9.setContent(html_04b9d1a70d860f99d377c9459ab229b5);
+        
+
+        marker_28d4eab37f8b254c5568250e13d96776.bindPopup(popup_148b402b14bf3d9046a3ac03b204bbc9)
+        ;
+
+        
+    
+    
+            var marker_eabeaa4b4e2c6efa540d87630095a2c8 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_371f717c720fbae64048c3faebe1f49c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db8da13c04a5aa5175a9f67a0f26f532 = $(`<div id="html_db8da13c04a5aa5175a9f67a0f26f532" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_371f717c720fbae64048c3faebe1f49c.setContent(html_db8da13c04a5aa5175a9f67a0f26f532);
+        
+
+        marker_eabeaa4b4e2c6efa540d87630095a2c8.bindPopup(popup_371f717c720fbae64048c3faebe1f49c)
+        ;
+
+        
+    
+    
+            var marker_8cf610aa5d53c62ea6953673c66fba73 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_dbcbe22e93c136b365a6a4a5f099cd82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6943d2ae47d900ec7a0eb9954568f07 = $(`<div id="html_c6943d2ae47d900ec7a0eb9954568f07" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_dbcbe22e93c136b365a6a4a5f099cd82.setContent(html_c6943d2ae47d900ec7a0eb9954568f07);
+        
+
+        marker_8cf610aa5d53c62ea6953673c66fba73.bindPopup(popup_dbcbe22e93c136b365a6a4a5f099cd82)
+        ;
+
+        
+    
+    
+            var marker_911c76fb079b9e7e4d4d7b5ab49b726f = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8f7734ed4163f6dd85af9ca90f722cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bc6718a980041ce80799a6b7be1e98f = $(`<div id="html_3bc6718a980041ce80799a6b7be1e98f" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_8f7734ed4163f6dd85af9ca90f722cf2.setContent(html_3bc6718a980041ce80799a6b7be1e98f);
+        
+
+        marker_911c76fb079b9e7e4d4d7b5ab49b726f.bindPopup(popup_8f7734ed4163f6dd85af9ca90f722cf2)
+        ;
+
+        
+    
+    
+            var marker_1c8892ebdc2aafc435915cdd351143e3 = L.marker(
+                [48.6938, 6.1825],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5fb352a74dd3b4c099b6750aff6bbaa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77b6b9f73b21636b35a29330b4352f6f = $(`<div id="html_77b6b9f73b21636b35a29330b4352f6f" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Nancy, France</div>`)[0];
+            popup_5fb352a74dd3b4c099b6750aff6bbaa7.setContent(html_77b6b9f73b21636b35a29330b4352f6f);
+        
+
+        marker_1c8892ebdc2aafc435915cdd351143e3.bindPopup(popup_5fb352a74dd3b4c099b6750aff6bbaa7)
+        ;
+
+        
+    
+    
+            var marker_1532a08cc7ebaff230ef71b469f56724 = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_c5d99006e2a288ce662a06ca0d2bfe9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85802533cdfe6c84cfbe7cdea42ff595 = $(`<div id="html_85802533cdfe6c84cfbe7cdea42ff595" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_c5d99006e2a288ce662a06ca0d2bfe9c.setContent(html_85802533cdfe6c84cfbe7cdea42ff595);
+        
+
+        marker_1532a08cc7ebaff230ef71b469f56724.bindPopup(popup_c5d99006e2a288ce662a06ca0d2bfe9c)
+        ;
+
+        
+    
+    
+            var marker_8ff829efe255e0c8eefec5221f84d098 = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_51f80226cc98ba7a2ed31c36be06927d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc11a9a45b54698bf5c8827fc03d279d = $(`<div id="html_dc11a9a45b54698bf5c8827fc03d279d" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_51f80226cc98ba7a2ed31c36be06927d.setContent(html_dc11a9a45b54698bf5c8827fc03d279d);
+        
+
+        marker_8ff829efe255e0c8eefec5221f84d098.bindPopup(popup_51f80226cc98ba7a2ed31c36be06927d)
+        ;
+
+        
+    
+    
+            var marker_9ce75b718c308c0ed4b2c656e410df28 = L.marker(
+                [48.8638, 2.3226],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f13460a3968d3efa685035ed34a6b63d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78af7c3820a9150dd0d9120015db323f = $(`<div id="html_78af7c3820a9150dd0d9120015db323f" style="width: 100.0%; height: 100.0%;">Musée de l'Orangerie, Paris, France</div>`)[0];
+            popup_f13460a3968d3efa685035ed34a6b63d.setContent(html_78af7c3820a9150dd0d9120015db323f);
+        
+
+        marker_9ce75b718c308c0ed4b2c656e410df28.bindPopup(popup_f13460a3968d3efa685035ed34a6b63d)
+        ;
+
+        
+    
+    
+            var marker_db38fc3c97adc5ef664d0a683632dd13 = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_60bd46b7022ed79da639055821b3eaf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6ed475935b206fb9a3d43a2c3766977 = $(`<div id="html_c6ed475935b206fb9a3d43a2c3766977" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_60bd46b7022ed79da639055821b3eaf5.setContent(html_c6ed475935b206fb9a3d43a2c3766977);
+        
+
+        marker_db38fc3c97adc5ef664d0a683632dd13.bindPopup(popup_60bd46b7022ed79da639055821b3eaf5)
+        ;
+
+        
+    
+    
+            var marker_a566d1384cf7ec82ef5df7711669c598 = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_eb7b9d2ea0363917828382ea7a98b336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4f59c0a03c6db0d7afe2e0a4a064c7 = $(`<div id="html_ed4f59c0a03c6db0d7afe2e0a4a064c7" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_eb7b9d2ea0363917828382ea7a98b336.setContent(html_ed4f59c0a03c6db0d7afe2e0a4a064c7);
+        
+
+        marker_a566d1384cf7ec82ef5df7711669c598.bindPopup(popup_eb7b9d2ea0363917828382ea7a98b336)
+        ;
+
+        
+    
+    
+            var marker_ec84b2bf873e08cddc0b41a14066073c = L.marker(
+                [-34.5833, -58.3917],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4b9da64d088eeb0d589b6bece236743b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_328f622b6330e86eae799ab687b06243 = $(`<div id="html_328f622b6330e86eae799ab687b06243" style="width: 100.0%; height: 100.0%;">Museo Nacional de Bellas Artes, Buenos Aires, Argentina</div>`)[0];
+            popup_4b9da64d088eeb0d589b6bece236743b.setContent(html_328f622b6330e86eae799ab687b06243);
+        
+
+        marker_ec84b2bf873e08cddc0b41a14066073c.bindPopup(popup_4b9da64d088eeb0d589b6bece236743b)
+        ;
+
+        
+    
+    
+            var marker_c57809de66af339b59a0e980ebaa820c = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_523d44d7d3f5d4f76cf1d5d4c0670c6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ced3008bc6a7da3a948109c77259482 = $(`<div id="html_2ced3008bc6a7da3a948109c77259482" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_523d44d7d3f5d4f76cf1d5d4c0670c6c.setContent(html_2ced3008bc6a7da3a948109c77259482);
+        
+
+        marker_c57809de66af339b59a0e980ebaa820c.bindPopup(popup_523d44d7d3f5d4f76cf1d5d4c0670c6c)
+        ;
+
+        
+    
+    
+            var marker_80548b1e3c1ff38d047a6e9a8d190511 = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_43f70629a62e3307452f005359564180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db4d8666b1b7063bb9edffed96a11b85 = $(`<div id="html_db4d8666b1b7063bb9edffed96a11b85" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_43f70629a62e3307452f005359564180.setContent(html_db4d8666b1b7063bb9edffed96a11b85);
+        
+
+        marker_80548b1e3c1ff38d047a6e9a8d190511.bindPopup(popup_43f70629a62e3307452f005359564180)
+        ;
+
+        
+    
+    
+            var marker_c214d852f4de45bed5e7cdf33afb3cd1 = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_4899ea63445a3afb2e6faec333b75f03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c29cb2f35cca13352c340fca73a27b2f = $(`<div id="html_c29cb2f35cca13352c340fca73a27b2f" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_4899ea63445a3afb2e6faec333b75f03.setContent(html_c29cb2f35cca13352c340fca73a27b2f);
+        
+
+        marker_c214d852f4de45bed5e7cdf33afb3cd1.bindPopup(popup_4899ea63445a3afb2e6faec333b75f03)
+        ;
+
+        
+    
+    
+            var marker_8c38c5cc4adf7f74dcd64ce2e70df785 = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e7f3619f7d3ee10970f1148ea51af202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59848db1562e9b5bc07374c48b263b0 = $(`<div id="html_b59848db1562e9b5bc07374c48b263b0" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_e7f3619f7d3ee10970f1148ea51af202.setContent(html_b59848db1562e9b5bc07374c48b263b0);
+        
+
+        marker_8c38c5cc4adf7f74dcd64ce2e70df785.bindPopup(popup_e7f3619f7d3ee10970f1148ea51af202)
+        ;
+
+        
+    
+    
+            var marker_cfc0a79a0067c955887b0d676fa67025 = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_aca2e54181deb8101089c8fdea40835f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa1754c28bd0b6853edee0add36c5a5a = $(`<div id="html_aa1754c28bd0b6853edee0add36c5a5a" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_aca2e54181deb8101089c8fdea40835f.setContent(html_aa1754c28bd0b6853edee0add36c5a5a);
+        
+
+        marker_cfc0a79a0067c955887b0d676fa67025.bindPopup(popup_aca2e54181deb8101089c8fdea40835f)
+        ;
+
+        
+    
+    
+            var marker_22eddde975b30b328e4e09892a5986ad = L.marker(
+                [52.3961, 13.057],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_32f682f9441621d8ba2f17e6b6cbccdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29f9bc22d5f6f4ae0da1115d218dbf3 = $(`<div id="html_a29f9bc22d5f6f4ae0da1115d218dbf3" style="width: 100.0%; height: 100.0%;">Museum Barberini, Potsdam, Germany</div>`)[0];
+            popup_32f682f9441621d8ba2f17e6b6cbccdf.setContent(html_a29f9bc22d5f6f4ae0da1115d218dbf3);
+        
+
+        marker_22eddde975b30b328e4e09892a5986ad.bindPopup(popup_32f682f9441621d8ba2f17e6b6cbccdf)
+        ;
+
+        
+    
+    
+            var marker_667ce9a8ba9b65605afcf3de16049125 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_7562e1e7ccd72a1d730248feb88476fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a799d9a9ab5fa837a1a3174b3d8abef = $(`<div id="html_7a799d9a9ab5fa837a1a3174b3d8abef" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_7562e1e7ccd72a1d730248feb88476fe.setContent(html_7a799d9a9ab5fa837a1a3174b3d8abef);
+        
+
+        marker_667ce9a8ba9b65605afcf3de16049125.bindPopup(popup_7562e1e7ccd72a1d730248feb88476fe)
+        ;
+
+        
+    
+    
+            var marker_cf707eb689c34ee885b7c62a42e643d7 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9ca69dcc80d215c735bc85ecaf26969a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26266c2c1f8a30ffb0f145aa06ecf623 = $(`<div id="html_26266c2c1f8a30ffb0f145aa06ecf623" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_9ca69dcc80d215c735bc85ecaf26969a.setContent(html_26266c2c1f8a30ffb0f145aa06ecf623);
+        
+
+        marker_cf707eb689c34ee885b7c62a42e643d7.bindPopup(popup_9ca69dcc80d215c735bc85ecaf26969a)
+        ;
+
+        
+    
+    
+            var marker_ee49cf1fffa10eb50741482db0ae95fb = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_55784ac3827cdfe98d4b9697b7c67172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39518bf05f2d776eb7f8333fa7f5219f = $(`<div id="html_39518bf05f2d776eb7f8333fa7f5219f" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_55784ac3827cdfe98d4b9697b7c67172.setContent(html_39518bf05f2d776eb7f8333fa7f5219f);
+        
+
+        marker_ee49cf1fffa10eb50741482db0ae95fb.bindPopup(popup_55784ac3827cdfe98d4b9697b7c67172)
+        ;
+
+        
+    
+    
+            var marker_a38379734dd4875562a7ae3f30fbffd2 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_389268aaa97ebc4972a03a8073d1768b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cabd8818170eba61f594871d869488e7 = $(`<div id="html_cabd8818170eba61f594871d869488e7" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_389268aaa97ebc4972a03a8073d1768b.setContent(html_cabd8818170eba61f594871d869488e7);
+        
+
+        marker_a38379734dd4875562a7ae3f30fbffd2.bindPopup(popup_389268aaa97ebc4972a03a8073d1768b)
+        ;
+
+        
+    
+    
+            var marker_1b81558de69aefbecbe72467f0edfb13 = L.marker(
+                [39.0469, -94.582],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e06048ed54b74f1c43c6391be531ae86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a242109a6dc3dbd5cabfe9bb76f7d7c1 = $(`<div id="html_a242109a6dc3dbd5cabfe9bb76f7d7c1" style="width: 100.0%; height: 100.0%;">Nelson-Atkins Museum of Art, Kansas City, USA</div>`)[0];
+            popup_e06048ed54b74f1c43c6391be531ae86.setContent(html_a242109a6dc3dbd5cabfe9bb76f7d7c1);
+        
+
+        marker_1b81558de69aefbecbe72467f0edfb13.bindPopup(popup_e06048ed54b74f1c43c6391be531ae86)
+        ;
+
+        
+    
+    
+            var marker_21df3a99ae32e74cb587daf86d999f37 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3f12ab0076bc562c8f8e289c9c906e19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6118133cd7af7df7ac1b59df57fc5b99 = $(`<div id="html_6118133cd7af7df7ac1b59df57fc5b99" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_3f12ab0076bc562c8f8e289c9c906e19.setContent(html_6118133cd7af7df7ac1b59df57fc5b99);
+        
+
+        marker_21df3a99ae32e74cb587daf86d999f37.bindPopup(popup_3f12ab0076bc562c8f8e289c9c906e19)
+        ;
+
+        
+    
+    
+            var marker_9ac17e13706c11f8e44665279064b847 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1ccab1234ec48bbf3444d6503f630612 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42db9cba1184b1aaafdfc24dafa828be = $(`<div id="html_42db9cba1184b1aaafdfc24dafa828be" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_1ccab1234ec48bbf3444d6503f630612.setContent(html_42db9cba1184b1aaafdfc24dafa828be);
+        
+
+        marker_9ac17e13706c11f8e44665279064b847.bindPopup(popup_1ccab1234ec48bbf3444d6503f630612)
+        ;
+
+        
+    
+    
+            var marker_1275a50375512d6f771cd149f04f8bf7 = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_73517256e6641f17cbfb960915f3e03f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3107eb32850d3c1b0ea8aaf8cc2c531 = $(`<div id="html_f3107eb32850d3c1b0ea8aaf8cc2c531" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_73517256e6641f17cbfb960915f3e03f.setContent(html_f3107eb32850d3c1b0ea8aaf8cc2c531);
+        
+
+        marker_1275a50375512d6f771cd149f04f8bf7.bindPopup(popup_73517256e6641f17cbfb960915f3e03f)
+        ;
+
+        
+    
+    
+            var marker_34a942b186bff53282e9c98c27fbc1fc = L.marker(
+                [47.5596, 7.5886],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_0bcb58937f469974fec3f6291b1a5a9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40fce2ccfb7c61c95eeffae468e060a = $(`<div id="html_b40fce2ccfb7c61c95eeffae468e060a" style="width: 100.0%; height: 100.0%;">Kunstmuseum Basel, Basel, Switzerland</div>`)[0];
+            popup_0bcb58937f469974fec3f6291b1a5a9a.setContent(html_b40fce2ccfb7c61c95eeffae468e060a);
+        
+
+        marker_34a942b186bff53282e9c98c27fbc1fc.bindPopup(popup_0bcb58937f469974fec3f6291b1a5a9a)
+        ;
+
+        
+    
+    
+            var marker_0bb45b886be4aef6573152bd0da4ab6c = L.marker(
+                [47.3941, 0.6848],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f2798064f3fb252b7e774b5a016cc33b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3f44533f3faad7ae54dd9fa85ad0c5c = $(`<div id="html_a3f44533f3faad7ae54dd9fa85ad0c5c" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Tours, France</div>`)[0];
+            popup_f2798064f3fb252b7e774b5a016cc33b.setContent(html_a3f44533f3faad7ae54dd9fa85ad0c5c);
+        
+
+        marker_0bb45b886be4aef6573152bd0da4ab6c.bindPopup(popup_f2798064f3fb252b7e774b5a016cc33b)
+        ;
+
+        
+    
+    
+            var marker_7427895f5a3a3b521b81651e13ef4a7c = L.marker(
+                [48.86, 2.3266],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_68c669fb412a0fc8c49b330b02c15822 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58fcada52cb824276fda8de09a0541de = $(`<div id="html_58fcada52cb824276fda8de09a0541de" style="width: 100.0%; height: 100.0%;">Musée d'Orsay, Paris, France</div>`)[0];
+            popup_68c669fb412a0fc8c49b330b02c15822.setContent(html_58fcada52cb824276fda8de09a0541de);
+        
+
+        marker_7427895f5a3a3b521b81651e13ef4a7c.bindPopup(popup_68c669fb412a0fc8c49b330b02c15822)
+        ;
+
+        
+    
+    
+            var marker_d7f1139af3318afb63cea1135008105d = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5b0f9dbe24bf3ea1dcb352f0ae8ce254 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08832133cf91f3d4e614aa41923a15dd = $(`<div id="html_08832133cf91f3d4e614aa41923a15dd" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_5b0f9dbe24bf3ea1dcb352f0ae8ce254.setContent(html_08832133cf91f3d4e614aa41923a15dd);
+        
+
+        marker_d7f1139af3318afb63cea1135008105d.bindPopup(popup_5b0f9dbe24bf3ea1dcb352f0ae8ce254)
+        ;
+
+        
+    
+    
+            var marker_3855a64e94da8c26fb059ab4167cee33 = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f7f8a1d16788eece7f853edc6d853810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd1397d8e29da1b7de4e6387f8390ff7 = $(`<div id="html_bd1397d8e29da1b7de4e6387f8390ff7" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_f7f8a1d16788eece7f853edc6d853810.setContent(html_bd1397d8e29da1b7de4e6387f8390ff7);
+        
+
+        marker_3855a64e94da8c26fb059ab4167cee33.bindPopup(popup_f7f8a1d16788eece7f853edc6d853810)
+        ;
+
+        
+    
+    
+            var marker_fbb1d4cf994eba68cb78e7c6e403c601 = L.marker(
+                [42.3394, -71.0938],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_bcdcf0454201f238bb9a7aaaf6b42ad7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72005ec4f6dd9bde586abcae6de18e85 = $(`<div id="html_72005ec4f6dd9bde586abcae6de18e85" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Boston, USA</div>`)[0];
+            popup_bcdcf0454201f238bb9a7aaaf6b42ad7.setContent(html_72005ec4f6dd9bde586abcae6de18e85);
+        
+
+        marker_fbb1d4cf994eba68cb78e7c6e403c601.bindPopup(popup_bcdcf0454201f238bb9a7aaaf6b42ad7)
+        ;
+
+        
+    
+    
+            var marker_8a317353181f4e6d1e0c0908f602f077 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e24c513544d2d0083357e97dd2e12930 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35574924fa221d8d9ede6258d2aebb5 = $(`<div id="html_a35574924fa221d8d9ede6258d2aebb5" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_e24c513544d2d0083357e97dd2e12930.setContent(html_a35574924fa221d8d9ede6258d2aebb5);
+        
+
+        marker_8a317353181f4e6d1e0c0908f602f077.bindPopup(popup_e24c513544d2d0083357e97dd2e12930)
+        ;
+
+        
+    
+    
+            var marker_2c857f9bda1a5c1f272bdcf24f869d0d = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f11cb067fd626e9eb7d704ccbb9c52ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe4e046e4af2dc131df503183ce7aeaf = $(`<div id="html_fe4e046e4af2dc131df503183ce7aeaf" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_f11cb067fd626e9eb7d704ccbb9c52ea.setContent(html_fe4e046e4af2dc131df503183ce7aeaf);
+        
+
+        marker_2c857f9bda1a5c1f272bdcf24f869d0d.bindPopup(popup_f11cb067fd626e9eb7d704ccbb9c52ea)
+        ;
+
+        
+    
+    
+            var marker_d2e9a13440bd82b57927ce5ab664245a = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8e54106038235823ad835c6f1a6d27cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e1394b421de2c45300a084fccdaeab4 = $(`<div id="html_1e1394b421de2c45300a084fccdaeab4" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_8e54106038235823ad835c6f1a6d27cb.setContent(html_1e1394b421de2c45300a084fccdaeab4);
+        
+
+        marker_d2e9a13440bd82b57927ce5ab664245a.bindPopup(popup_8e54106038235823ad835c6f1a6d27cb)
+        ;
+
+        
+    
+    
+            var marker_f914f3ee0053bd45845247c9cea6924a = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_784495a129684d1abc012b4973372ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_392fcc3f80067c4252eb0c5e96e9cfb1 = $(`<div id="html_392fcc3f80067c4252eb0c5e96e9cfb1" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_784495a129684d1abc012b4973372ad0.setContent(html_392fcc3f80067c4252eb0c5e96e9cfb1);
+        
+
+        marker_f914f3ee0053bd45845247c9cea6924a.bindPopup(popup_784495a129684d1abc012b4973372ad0)
+        ;
+
+        
+    
+    
+            var marker_43941805c79571843165638fd2ae2141 = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_97ae1c4702c61851901e3845abb5b5f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5227119e788e14baa5678bc286487b8 = $(`<div id="html_c5227119e788e14baa5678bc286487b8" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_97ae1c4702c61851901e3845abb5b5f2.setContent(html_c5227119e788e14baa5678bc286487b8);
+        
+
+        marker_43941805c79571843165638fd2ae2141.bindPopup(popup_97ae1c4702c61851901e3845abb5b5f2)
+        ;
+
+        
+    
+    
+            var marker_f6d5cd746fe7c0e8ae5b3b4011aeae9f = L.marker(
+                [49.4407, 1.0962],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8314affff56872725c7db6109d485a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f289c42626f0c120b8638791172b8cd3 = $(`<div id="html_f289c42626f0c120b8638791172b8cd3" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rouen, France</div>`)[0];
+            popup_8314affff56872725c7db6109d485a87.setContent(html_f289c42626f0c120b8638791172b8cd3);
+        
+
+        marker_f6d5cd746fe7c0e8ae5b3b4011aeae9f.bindPopup(popup_8314affff56872725c7db6109d485a87)
+        ;
+
+        
+    
+    
+            var marker_133c27847b34ae1557e86dcdbb7a2d8c = L.marker(
+                [41.5089, -81.6115],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9a4f79590823f1d94d25241988c83102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8414718cdc28aac5063f746aa2a9bf84 = $(`<div id="html_8414718cdc28aac5063f746aa2a9bf84" style="width: 100.0%; height: 100.0%;">Cleveland Museum of Art, Cleveland, USA</div>`)[0];
+            popup_9a4f79590823f1d94d25241988c83102.setContent(html_8414718cdc28aac5063f746aa2a9bf84);
+        
+
+        marker_133c27847b34ae1557e86dcdbb7a2d8c.bindPopup(popup_9a4f79590823f1d94d25241988c83102)
+        ;
+
+        
+    
+    
+            var marker_fe37850dda80de9d6ec7598b0925441e = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_9486c3f1fd15f1c903312402a9d939af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab331c169de3abe2d3f7aa8c1f374358 = $(`<div id="html_ab331c169de3abe2d3f7aa8c1f374358" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_9486c3f1fd15f1c903312402a9d939af.setContent(html_ab331c169de3abe2d3f7aa8c1f374358);
+        
+
+        marker_fe37850dda80de9d6ec7598b0925441e.bindPopup(popup_9486c3f1fd15f1c903312402a9d939af)
+        ;
+
+        
+    
+    
+            var marker_cada1d843d6ab64d1a4b2d2c63929980 = L.marker(
+                [41.5089, -81.6115],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b9fdecdf7ffa091daa3b56ef883a89ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b51980458a9677950d202a74056bf9d = $(`<div id="html_1b51980458a9677950d202a74056bf9d" style="width: 100.0%; height: 100.0%;">Cleveland Museum of Art, Cleveland, USA</div>`)[0];
+            popup_b9fdecdf7ffa091daa3b56ef883a89ed.setContent(html_1b51980458a9677950d202a74056bf9d);
+        
+
+        marker_cada1d843d6ab64d1a4b2d2c63929980.bindPopup(popup_b9fdecdf7ffa091daa3b56ef883a89ed)
+        ;
+
+        
+    
+    
+            var marker_5eb2d64221e20468a7536c8740949ab6 = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_64dc9670386070b7c5d54dc9eb037778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75357ea406639b2eae8c3545386079f0 = $(`<div id="html_75357ea406639b2eae8c3545386079f0" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_64dc9670386070b7c5d54dc9eb037778.setContent(html_75357ea406639b2eae8c3545386079f0);
+        
+
+        marker_5eb2d64221e20468a7536c8740949ab6.bindPopup(popup_64dc9670386070b7c5d54dc9eb037778)
+        ;
+
+        
+    
+    
+            var marker_b5f7c23f35f413175b71e64c62124f93 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_30d0c4bd156b0463985562fa3496ea8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa49970f48e8bebbce896ea204ce6fb = $(`<div id="html_caa49970f48e8bebbce896ea204ce6fb" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_30d0c4bd156b0463985562fa3496ea8a.setContent(html_caa49970f48e8bebbce896ea204ce6fb);
+        
+
+        marker_b5f7c23f35f413175b71e64c62124f93.bindPopup(popup_30d0c4bd156b0463985562fa3496ea8a)
+        ;
+
+        
+    
+    
+            var marker_41fd9721904271c98be065c13675d588 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_8cc06a9941e7ad851716ca40a634a9d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce7e78474ab86445bf9a79b31883e971 = $(`<div id="html_ce7e78474ab86445bf9a79b31883e971" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_8cc06a9941e7ad851716ca40a634a9d3.setContent(html_ce7e78474ab86445bf9a79b31883e971);
+        
+
+        marker_41fd9721904271c98be065c13675d588.bindPopup(popup_8cc06a9941e7ad851716ca40a634a9d3)
+        ;
+
+        
+    
+    
+            var marker_95b1e47916ae91b0cb2d39a4817f7268 = L.marker(
+                [29.7253, -95.3905],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_33a90440ef18812c150276a96373e45d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c730f3f6a02fc49db614be04ec80fb6 = $(`<div id="html_6c730f3f6a02fc49db614be04ec80fb6" style="width: 100.0%; height: 100.0%;">Museum of Fine Arts, Houston, USA</div>`)[0];
+            popup_33a90440ef18812c150276a96373e45d.setContent(html_6c730f3f6a02fc49db614be04ec80fb6);
+        
+
+        marker_95b1e47916ae91b0cb2d39a4817f7268.bindPopup(popup_33a90440ef18812c150276a96373e45d)
+        ;
+
+        
+    
+    
+            var marker_2b220db92ae0f59c406f7fc320709734 = L.marker(
+                [37.7833, -122.503],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2e8e422718e0aee5ce77567867c90065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c748cdaa1e72203526bdd2cb8fd1b658 = $(`<div id="html_c748cdaa1e72203526bdd2cb8fd1b658" style="width: 100.0%; height: 100.0%;">Legion of Honor, San Francisco, USA</div>`)[0];
+            popup_2e8e422718e0aee5ce77567867c90065.setContent(html_c748cdaa1e72203526bdd2cb8fd1b658);
+        
+
+        marker_2b220db92ae0f59c406f7fc320709734.bindPopup(popup_2e8e422718e0aee5ce77567867c90065)
+        ;
+
+        
+    
+    
+            var marker_ad70fde2efd323ad8a0adabd3447af45 = L.marker(
+                [40.7794, -73.9632],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_5c33d4235108259878c0c4479e3926ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a648200e472139842694811aaf1739e7 = $(`<div id="html_a648200e472139842694811aaf1739e7" style="width: 100.0%; height: 100.0%;">Metropolitan Museum of Art, New York, USA</div>`)[0];
+            popup_5c33d4235108259878c0c4479e3926ae.setContent(html_a648200e472139842694811aaf1739e7);
+        
+
+        marker_ad70fde2efd323ad8a0adabd3447af45.bindPopup(popup_5c33d4235108259878c0c4479e3926ae)
+        ;
+
+        
+    
+    
+            var marker_f19bc247644d5d17d1e867ed5bd2adda = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_33f80fe87f2d22e616b283f9bbcd2ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca87988e15b5c5028c7c1f256c5fc772 = $(`<div id="html_ca87988e15b5c5028c7c1f256c5fc772" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_33f80fe87f2d22e616b283f9bbcd2ec3.setContent(html_ca87988e15b5c5028c7c1f256c5fc772);
+        
+
+        marker_f19bc247644d5d17d1e867ed5bd2adda.bindPopup(popup_33f80fe87f2d22e616b283f9bbcd2ec3)
+        ;
+
+        
+    
+    
+            var marker_b1e3e7c6ac741c84bbee970cbcc07db6 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_897df375a0e7a08992d8c4e27fcc8af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_851d189ea3e56c1ce6d4fcb0905489ef = $(`<div id="html_851d189ea3e56c1ce6d4fcb0905489ef" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_897df375a0e7a08992d8c4e27fcc8af7.setContent(html_851d189ea3e56c1ce6d4fcb0905489ef);
+        
+
+        marker_b1e3e7c6ac741c84bbee970cbcc07db6.bindPopup(popup_897df375a0e7a08992d8c4e27fcc8af7)
+        ;
+
+        
+    
+    
+            var marker_83938328075a7d20eacd1afe5a7ae21d = L.marker(
+                [48.1114, -1.678],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f9060a4b342f49f5b2bac29f02f2bbf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5671f5416b5be7fe9b7a2df31697fb09 = $(`<div id="html_5671f5416b5be7fe9b7a2df31697fb09" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Rennes, France</div>`)[0];
+            popup_f9060a4b342f49f5b2bac29f02f2bbf5.setContent(html_5671f5416b5be7fe9b7a2df31697fb09);
+        
+
+        marker_83938328075a7d20eacd1afe5a7ae21d.bindPopup(popup_f9060a4b342f49f5b2bac29f02f2bbf5)
+        ;
+
+        
+    
+    
+            var marker_7cf7fdfe837125312d7912881b243d33 = L.marker(
+                [59.9398, 30.3146],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_87a6c46a5a46075aac2cd70e92259d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a14dbeb4e2e6c8c19e13ce691ffcf9a0 = $(`<div id="html_a14dbeb4e2e6c8c19e13ce691ffcf9a0" style="width: 100.0%; height: 100.0%;">State Hermitage Museum, Saint Petersburg, Russia</div>`)[0];
+            popup_87a6c46a5a46075aac2cd70e92259d9c.setContent(html_a14dbeb4e2e6c8c19e13ce691ffcf9a0);
+        
+
+        marker_7cf7fdfe837125312d7912881b243d33.bindPopup(popup_87a6c46a5a46075aac2cd70e92259d9c)
+        ;
+
+        
+    
+    
+            var marker_04132dbc3606ea5c0b870f9f0f53b8c5 = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_b2d5f56d59d4df4bad44cf1dc6c27a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e4ff81e47f1673cd26606ae73600d57 = $(`<div id="html_5e4ff81e47f1673cd26606ae73600d57" style="width: 100.0%; height: 100.0%;">Museum of Modern Art, New York, USA</div>`)[0];
+            popup_b2d5f56d59d4df4bad44cf1dc6c27a5c.setContent(html_5e4ff81e47f1673cd26606ae73600d57);
+        
+
+        marker_04132dbc3606ea5c0b870f9f0f53b8c5.bindPopup(popup_b2d5f56d59d4df4bad44cf1dc6c27a5c)
+        ;
+
+        
+    
+    
+            var marker_3221ff7e7be5020a2db3aa212a5b4655 = L.marker(
+                [34.0638, -118.3585],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d235bdfbcb7cabaa8dc22b09f68288df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a45becc09bee78dfb007e2dac8b594fd = $(`<div id="html_a45becc09bee78dfb007e2dac8b594fd" style="width: 100.0%; height: 100.0%;">Los Angeles County Museum of Art, Los Angeles, USA</div>`)[0];
+            popup_d235bdfbcb7cabaa8dc22b09f68288df.setContent(html_a45becc09bee78dfb007e2dac8b594fd);
+        
+
+        marker_3221ff7e7be5020a2db3aa212a5b4655.bindPopup(popup_d235bdfbcb7cabaa8dc22b09f68288df)
+        ;
+
+        
+    
+    
+            var marker_aed1f009565c0488d521715cb80b4a7e = L.marker(
+                [35.7142, 139.7769],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_f139427268e2558fc089eec803ced875 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d4b2ff87efdd9fa7803ba2adcfe6d7 = $(`<div id="html_b7d4b2ff87efdd9fa7803ba2adcfe6d7" style="width: 100.0%; height: 100.0%;">National Museum of Western Art, Tokyo, Japan</div>`)[0];
+            popup_f139427268e2558fc089eec803ced875.setContent(html_b7d4b2ff87efdd9fa7803ba2adcfe6d7);
+        
+
+        marker_aed1f009565c0488d521715cb80b4a7e.bindPopup(popup_f139427268e2558fc089eec803ced875)
+        ;
+
+        
+    
+    
+            var marker_fdf8c7a177cf53ea4301a6990c269789 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_19778b375e0d6a92ffc7977f72cc199f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b54cbecfaed7cae4a53dae577c822c0 = $(`<div id="html_9b54cbecfaed7cae4a53dae577c822c0" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_19778b375e0d6a92ffc7977f72cc199f.setContent(html_9b54cbecfaed7cae4a53dae577c822c0);
+        
+
+        marker_fdf8c7a177cf53ea4301a6990c269789.bindPopup(popup_19778b375e0d6a92ffc7977f72cc199f)
+        ;
+
+        
+    
+    
+            var marker_23f14e53bea24a14fa5c3d64cad02e54 = L.marker(
+                [38.639, -90.2948],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_2254937555358abb0edd87cc628de0fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2719adfe2009d43c89cca4eca9444c7 = $(`<div id="html_e2719adfe2009d43c89cca4eca9444c7" style="width: 100.0%; height: 100.0%;">Saint Louis Art Museum, St. Louis, USA</div>`)[0];
+            popup_2254937555358abb0edd87cc628de0fd.setContent(html_e2719adfe2009d43c89cca4eca9444c7);
+        
+
+        marker_23f14e53bea24a14fa5c3d64cad02e54.bindPopup(popup_2254937555358abb0edd87cc628de0fd)
+        ;
+
+        
+    
+    
+            var marker_185cb00db99e9cee415f7d2b413a03e1 = L.marker(
+                [40.4138, -3.6942],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d0de7b33b04b5184c3a7a41fdb96bcf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b99a2aa836cb87271091f494e834327 = $(`<div id="html_7b99a2aa836cb87271091f494e834327" style="width: 100.0%; height: 100.0%;">Museo Nacional Thyssen-Bornemisza, Madrid, Spain</div>`)[0];
+            popup_d0de7b33b04b5184c3a7a41fdb96bcf0.setContent(html_7b99a2aa836cb87271091f494e834327);
+        
+
+        marker_185cb00db99e9cee415f7d2b413a03e1.bindPopup(popup_d0de7b33b04b5184c3a7a41fdb96bcf0)
+        ;
+
+        
+    
+    
+            var marker_ab3bf6cb95d5fb172b1ace35b4c18396 = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_ecd5b182100206b2b4e8c7e8f1cb88ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c56a1d09a6c3d44521f86d0e3cfc0c = $(`<div id="html_d3c56a1d09a6c3d44521f86d0e3cfc0c" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago, Chicago, USA</div>`)[0];
+            popup_ecd5b182100206b2b4e8c7e8f1cb88ba.setContent(html_d3c56a1d09a6c3d44521f86d0e3cfc0c);
+        
+
+        marker_ab3bf6cb95d5fb172b1ace35b4c18396.bindPopup(popup_ecd5b182100206b2b4e8c7e8f1cb88ba)
+        ;
+
+        
+    
+    
+            var marker_df188baa0adda40c89ca2ef872fb1094 = L.marker(
+                [40.3493, -74.6591],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_876d065f90305f884a6b9e4afa9400c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_349554bd42cf4d803c678b3dc0eee771 = $(`<div id="html_349554bd42cf4d803c678b3dc0eee771" style="width: 100.0%; height: 100.0%;">Princeton University Art Museum, Princeton, USA</div>`)[0];
+            popup_876d065f90305f884a6b9e4afa9400c9.setContent(html_349554bd42cf4d803c678b3dc0eee771);
+        
+
+        marker_df188baa0adda40c89ca2ef872fb1094.bindPopup(popup_876d065f90305f884a6b9e4afa9400c9)
+        ;
+
+        
+    
+    
+            var marker_53f16bf9ac25231f8a837a3b377f5a03 = L.marker(
+                [48.858, 2.2684],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_49d7aece4b699e049943e00b2bb3afab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e6fd8f7356f9a72a10de5fc6ed220eb = $(`<div id="html_6e6fd8f7356f9a72a10de5fc6ed220eb" style="width: 100.0%; height: 100.0%;">Marmottan Monet Museum, Paris, France</div>`)[0];
+            popup_49d7aece4b699e049943e00b2bb3afab.setContent(html_6e6fd8f7356f9a72a10de5fc6ed220eb);
+        
+
+        marker_53f16bf9ac25231f8a837a3b377f5a03.bindPopup(popup_49d7aece4b699e049943e00b2bb3afab)
+        ;
+
+        
+    
+    
+            var marker_d21ef091e3f77b7e95882b489f2ba3e1 = L.marker(
+                [39.9656, -75.181],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_3425e17e86f02d875d689739b9940108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b16f1cc45a1f8c472547225764d7b0f8 = $(`<div id="html_b16f1cc45a1f8c472547225764d7b0f8" style="width: 100.0%; height: 100.0%;">Philadelphia Museum of Art, Philadelphia, USA</div>`)[0];
+            popup_3425e17e86f02d875d689739b9940108.setContent(html_b16f1cc45a1f8c472547225764d7b0f8);
+        
+
+        marker_d21ef091e3f77b7e95882b489f2ba3e1.bindPopup(popup_3425e17e86f02d875d689739b9940108)
+        ;
+
+        
+    
+    
+            var marker_3001e326d015f3b081530b8fc54ee8cd = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_e7398faec342571289ff60f44a1d0b16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4068d2a65f864b08e8fd0815a6b97641 = $(`<div id="html_4068d2a65f864b08e8fd0815a6b97641" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_e7398faec342571289ff60f44a1d0b16.setContent(html_4068d2a65f864b08e8fd0815a6b97641);
+        
+
+        marker_3001e326d015f3b081530b8fc54ee8cd.bindPopup(popup_e7398faec342571289ff60f44a1d0b16)
+        ;
+
+        
+    
+    
+            var marker_0cdd12f6d98104adc923df3fdda3142f = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_d6df38fbd25a1ae9a448790f7f463ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eba31c1052b85e9e71f125f16c820b32 = $(`<div id="html_eba31c1052b85e9e71f125f16c820b32" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_d6df38fbd25a1ae9a448790f7f463ca4.setContent(html_eba31c1052b85e9e71f125f16c820b32);
+        
+
+        marker_0cdd12f6d98104adc923df3fdda3142f.bindPopup(popup_d6df38fbd25a1ae9a448790f7f463ca4)
+        ;
+
+        
+    
+    
+            var marker_1650d713f1abc28e979fbe1747ba7e78 = L.marker(
+                [52.5228, 13.3974],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_1f4c8230564c9ae230aaa6b7f1f11bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_958109e5967469bd02348c746c0f98bf = $(`<div id="html_958109e5967469bd02348c746c0f98bf" style="width: 100.0%; height: 100.0%;">Alte Nationalgalerie, Berlin, Germany</div>`)[0];
+            popup_1f4c8230564c9ae230aaa6b7f1f11bf9.setContent(html_958109e5967469bd02348c746c0f98bf);
+        
+
+        marker_1650d713f1abc28e979fbe1747ba7e78.bindPopup(popup_1f4c8230564c9ae230aaa6b7f1f11bf9)
+        ;
+
+        
+    
+    
+            var marker_4910d4ce16fcc2a88e413fa39caf12f2 = L.marker(
+                [50.6372, 3.0635],
+                {}
+            ).addTo(marker_cluster_58924e990c1cddd743f192f41d072d83);
+        
+    
+        var popup_aed9e6b5a1cdaa9f554798ddda981853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a172819a0a265f6720eb68ede506a95 = $(`<div id="html_0a172819a0a265f6720eb68ede506a95" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, Lille, France</div>`)[0];
+            popup_aed9e6b5a1cdaa9f554798ddda981853.setContent(html_0a172819a0a265f6720eb68ede506a95);
+        
+
+        marker_4910d4ce16fcc2a88e413fa39caf12f2.bindPopup(popup_aed9e6b5a1cdaa9f554798ddda981853)
+        ;
+
+        
+    
+</script>
+</html>
